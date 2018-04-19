@@ -1,3 +1,9 @@
+var w = window,
+d = document,
+e = d.documentElement,
+g = d.getElementsByTagName('body')[0],
+bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
+
 $(window).load(function() {
 
     $("select").each(function() {
@@ -12,17 +18,23 @@ $(window).load(function() {
 
 });
 
+$(window).resize(function() {
+
+
+
+});
+
 $(document).ready(function() {
 
-    var w = window,
-    d = document,
-    e = d.documentElement,
-    g = d.getElementsByTagName('body')[0],
-    bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
-   
-    $(window).resize(function() {
+    $(".thumbnails-4 .thumb-4").each(function() {
 
-        
+        var thumbIndex = $(this).index();
+
+        if( thumbIndex%3 == 0 && thumbIndex != 0) {
+
+            $(this).addClass("big");
+
+        }
 
     });
 
