@@ -800,6 +800,10 @@ textarea:focus {
 
 /*-- Section 1 - Main Page --*/
 
+.promo-sect {
+    padding: 0;
+}
+
 .promo-box {
     background-image: url(img/bg_1.jpg);
     background-position: right 82px;
@@ -1031,6 +1035,33 @@ textarea:focus {
     border-bottom: 2px solid transparent;
     color: #ff4a00;
 }
+
+.brands {
+    text-align: center;
+    margin: 56px 0 41px 0;
+}
+
+.brand {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    margin: 8px 1%;
+}
+
+.brand img {
+    display: block;
+    width: auto;
+    height: auto;
+    opacity: .4;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: url(desaturate.svg#greyscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
 
 /*-- /Section 1 - Main Page --*/
 
