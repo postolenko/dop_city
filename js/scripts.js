@@ -105,3 +105,13 @@ $(document).ready(function() {
     });
 
 });
+
+function getAtcile2Bg() {
+
+    $(".article_2").each(function() {
+
+        var bgLeft = $(this).find(".bg_left");
+
+    });
+
+}
