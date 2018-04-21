@@ -26,6 +26,8 @@ $(window).resize(function() {
 
 $(document).ready(function() {
 
+    $("input[type='tel']").mask("+7 (999) 999-99-99");
+
     $(".thumbnails-4 .thumb-4").each(function() {
 
         var thumbIndex = $(this).index();
