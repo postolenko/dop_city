@@ -2729,10 +2729,6 @@ h2.shadow {
 
 
 
-
-
-
-
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
@@ -3424,7 +3420,7 @@ h2.shadow {
 
     -o-transition-property: all;
     -o-transition-duration: 1s;
-    --transition-delay: .4s;
+    -o-transition-delay: .4s;
     -o-transition-timing-function: ease-in-out;
 
     transition-property: all;
@@ -3459,7 +3455,7 @@ h2.shadow {
 
     -o-transition-property: all;
     -o-transition-duration: 1s;
-    --transition-delay: .4s;
+    -o-transition-delay: .4s;
     -o-transition-timing-function: ease-in-out;
 
     transition-property: all;
@@ -3508,6 +3504,10 @@ h2.shadow {
 .animate.active .fadeInUp {
     bottom: 0;
     opacity: 1;
+}
+
+.opacity-img {
+    opacity: 0;
 }
 
 /*-- /Animation --*/

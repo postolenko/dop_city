@@ -6,21 +6,29 @@ bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 $(window).load(function() {
 
-    $("select").each(function() {
+    // $("select").each(function() {
 
-        var parentBlock = $(this).closest(".select-block");
+    //     var parentBlock = $(this).closest(".select-block");
 
-        parentBlock.find(".select2-container").css({
-            "width" : parentBlock.width() + "px"
-        });
+    //     parentBlock.find(".select2-container").css({
+    //         "width" : parentBlock.width() + "px"
+    //     });
 
-    });
+    // });
+
+    getImgPath();
 
 });
 
 $(window).resize(function() {
 
+    getImgPath();
 
+});
+
+$(document).scroll(function() {
+
+    getImgPath();
 
 });
 
@@ -114,6 +122,22 @@ function getAtcile2Bg() {
 
         var bgLeft = $(this).find(".bg_left");
 
+    });
+
+}
+
+function getImgPath() {
+
+    $("img").each(function() {
+        if($(this).offset().top <= $(document).scrollTop() + $(window).height()
+            && $(this).attr("src") == "" && $(this).attr("data-src") != "") {
+            var imgPath = $(this).attr("data-src");
+            $(this).addClass("opacity-img");
+            $(this).attr("src", imgPath);
+            $(this).animate({
+                "opacity" : 1
+            }, 600);
+        }
     });
 
 }
