@@ -17,18 +17,23 @@ $(window).load(function() {
     // });
 
     getImgPath();
+    getBgPath();
 
 });
 
 $(window).resize(function() {
 
+    bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
+
     getImgPath();
+    getBgPath();
 
 });
 
 $(document).scroll(function() {
 
     getImgPath();
+    getBgPath();
 
 });
 
@@ -137,6 +142,31 @@ function getImgPath() {
             $(this).animate({
                 "opacity" : 1
             }, 600);
+        }
+    });
+
+}
+
+function getBgPath() {
+
+    var bgImgPath;
+
+    $(".bgjs").each(function() {
+        if($(this).offset().top <= ( $(document).scrollTop() + $(window).height() + 200 )) {
+
+            if( bodyWidth < parseInt( $(this).attr("data-bgresp") ) ) {
+
+                bgImgPath = $(this).attr("data-bgresp");
+                $(this).css({
+                    "background-image" : "url(" + bgImgPath + ")"
+                });
+            } else {
+                bgImgPath = $(this).attr("data-bg");
+                $(this).css({
+                    "background-image" : "url(" + bgImgPath + ")"
+                });
+            }
+
         }
     });
 
