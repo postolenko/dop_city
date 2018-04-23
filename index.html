@@ -109,7 +109,7 @@
 						<input type="text" class="city-choose" id="city_ch" readonly value="" />
 					</div>
 					<div class="right align-right">
-						<button type="button" class="submit-btn green-pill">Выбрать</button>
+						<button type="button" class="green-pill close_city">Выбрать</button>
 					</div>
 				</form>
 			</div>
@@ -729,7 +729,7 @@
 								<div class="three-cols clearfix">
 									<div class="left">
 										<div class="city-name">
-											<h3>г. Москва</h3>
+											<h3>г. <span id="city_title">Москва</span></h3>
 											<p><a href="#" class="orange_dashed show_popup" data-popup-name = "popup_1">Выбрать другой город</a></p>
 										</div>
 										<div class="input_wrapp">
@@ -970,7 +970,7 @@
 										</div>
 										<div class="left">
 											<div class="input_wrapp">
-												<input type="text" placeholder="Ваше имя" />
+												<input type="tel" placeholder="Ваш телефон" />
 											</div>
 										</div>
 										<div class="left">
@@ -997,65 +997,66 @@
 				<section class="sect-9">
 					
 					<div class="article_2">
-						<!-- <div class="bg_left">
-							<img src="img/img/window_bg.png" alt="" />
-						</div> -->
+
 						<div class="row clearfix">
 							<div class="article_2-content right">
-								<h3>Декоративная раскладка любых видов 	и рисунков</h3>
-								<div class="overflow_wrapp">				
-									<div class="thumbnails-6 offset-ziro">
-										<div class="thumb-6">
-											<img src="" data-src="img/1.png" alt="" />
-										</div>
-										<div class="thumb-6">
-											<img src="" data-src="img/2.png" alt="" />
-										</div>
-										<div class="thumb-6">
-											<img src="" data-src="img/3.png" alt="" />
-										</div>
-										<div class="thumb-6">
-											<img src="" data-src="img/4.png" alt="" />
+								<img class="bg_left" src="img/window_bg.png" alt="" />
+								<div class="inner">
+									<h3>Декоративная раскладка любых видов 	и рисунков</h3>
+									<div class="overflow_wrapp">				
+										<div class="thumbnails-6 offset-ziro">
+											<div class="thumb-6">
+												<img src="" data-src="img/1.png" alt="" />
+											</div>
+											<div class="thumb-6">
+												<img src="" data-src="img/2.png" alt="" />
+											</div>
+											<div class="thumb-6">
+												<img src="" data-src="img/3.png" alt="" />
+											</div>
+											<div class="thumb-6">
+												<img src="" data-src="img/4.png" alt="" />
+											</div>
 										</div>
 									</div>
-								</div>
-								<h3>Тонировка для комфорта в Вашем доме</h3>
-								<div class="colors-thumbs tuning">
-									<div class="color-thumb">
-										<div class="img-box">
-											<img src="img/t_01.png" alt="" />
+									<h3>Тонировка для комфорта в Вашем доме</h3>
+									<div class="colors-thumbs tuning">
+										<div class="color-thumb">
+											<div class="img-box">
+												<img src="img/t_01.png" alt="" />
+											</div>
+											<p>R BRONZE 10</p>
 										</div>
-										<p>R BRONZE 10</p>
-									</div>
-									<div class="color-thumb">
-										<div class="img-box">
-											<img src="img/t_04.png" alt="" />
+										<div class="color-thumb">
+											<div class="img-box">
+												<img src="img/t_04.png" alt="" />
+											</div>
+											<p>SOLAR BRONZE 20</p>
 										</div>
-										<p>SOLAR BRONZE 20</p>
-									</div>
-									<div class="color-thumb">
-										<div class="img-box">
-											<img src="img/t_03.png" alt="" />
+										<div class="color-thumb">
+											<div class="img-box">
+												<img src="img/t_03.png" alt="" />
+											</div>
+											<p>R GOLD 15</p>
 										</div>
-										<p>R GOLD 15</p>
-									</div>
-									<div class="color-thumb">
-										<div class="img-box">
-											<img src="img/t_02.png" alt="" />
+										<div class="color-thumb">
+											<div class="img-box">
+												<img src="img/t_02.png" alt="" />
+											</div>
+											<p>R BLUE 15</p>
 										</div>
-										<p>R BLUE 15</p>
-									</div>
-									<div class="color-thumb">
-										<div class="img-box">
-											<img src="img/t_0.png" alt="" />
+										<div class="color-thumb">
+											<div class="img-box">
+												<img src="img/t_0.png" alt="" />
+											</div>
+											<p>R GREEN 10</p>
 										</div>
-										<p>R GREEN 10</p>
-									</div>
-									<div class="color-thumb">
-										<div class="img-box">
-											<img src="img/t_05.jpg" alt="" />
+										<div class="color-thumb">
+											<div class="img-box">
+												<img src="img/t_05.jpg" alt="" />
+											</div>
+											<p>R SILVER 50</p>
 										</div>
-										<p>R SILVER 50</p>
 									</div>
 								</div>
 							</div>

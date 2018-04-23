@@ -2039,18 +2039,34 @@ h2.shadow {
 
 .sect-9 {
     padding: 0;
-    background-image: url(img/sect_9_bg.jpg);
-    background-size: cover;
-    background-position: left center;
+    overflow: hidden;
+    background-image: url(img/sect_9_shape.jpg);
+    background-repeat: repeat;
 }
 
 .article_2 {
     position: relative;
-    padding: 52px 0 15px 0;
 }
 
 .article_2-content {
-    width: 67%;
+    width: 65%;
+    padding: 52px 0 15px 0;
+    position: relative;
+}
+
+.bg_left {
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.article_2-content .inner {
+    position: relative;
+    z-index: 2;
 }
 
 .article_2-content h3 {
@@ -3083,7 +3099,7 @@ h2.shadow {
     color: #000000;
 }
 
-.submit-btn {
+.close_city {
     min-width: 180px;
 }
 
