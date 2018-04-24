@@ -9,6 +9,16 @@ var leftCoord;
 
 $(window).load(function() {
 
+    // $("select").each(function() {
+
+    //     var parentBlock = $(this).closest(".select-block");
+
+    //     parentBlock.find(".select2-container").css({
+    //         "width" : parentBlock.width() + "px"
+    //     });
+
+    // });
+
     getImgPath();
     getBgPath();
     getAtcile2Bg();
