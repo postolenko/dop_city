@@ -1308,6 +1308,41 @@
 
 	/*-- Section 13 - main Page --*/
 
+	.thumbnails-8 {
+	    margin: 20px -6px;
+	}
+
+	.thumb-8 {
+	    width: 116px;
+	}
+
+	.thumb-8 .inner {
+	    height: 164px;
+	}
+
+	.thumb-8 .inner:link,
+	.thumb-8 .inner:visited {
+	    border-width: 3px;
+	}
+
+	.thumb-8 .inner:active,
+	.thumb-8 .inner.active {
+	    border-width: 3px;
+	}
+
+	.thumb-8 .inner:hover {
+	    border-width: 3px;
+	}
+
+	.thumb-8 .inner img {
+	    max-width: 100%;
+	    min-height: auto;
+	}
+
+	/*-- /Section 13 - main Page --*/
+
+	/*-- Section 14 - main Page --*/
+
 	.article_4 {
 	    padding: 30px 0 0 0;
 	}
@@ -1318,7 +1353,7 @@
 	    line-height: 39px;
 	}
 
-	/*-- /Section 13 - main Page --*/
+	/*-- /Section 14 - main Page --*/
 
 	/*-- Popups --*/
 
