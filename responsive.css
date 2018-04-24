@@ -1154,6 +1154,11 @@
 
 @media only screen and (max-width: 480px) {
 
+	h1 {
+	    font-size: 86px;
+	    line-height: 93px;
+	}
+
 	h2 {
 	    font-size: 28px;
 	    line-height: 38px;
@@ -1186,11 +1191,6 @@
 	/*-- /Header --*/
 
 	/*-- Section 1 - main Page --*/
-
-	h1 {
-	    font-size: 86px;
-	    line-height: 93px;
-	}
 
 	.h1-box p {
 	    font-size: 45px;
@@ -1412,12 +1412,6 @@
 
 	/*-- /Footer --*/
 	
-}
-
-@media only screen and (max-width: 320px) {
-
-	
-
 }
 
 

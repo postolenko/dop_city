@@ -1,7 +1,5 @@
 $(window).on("load",function(){
 
-	$(".scroll").mCustomScrollbar();
-
 	if( bodyWidth <= 768 ) {
 
 		$(".main-nav").mCustomScrollbar();
@@ -27,16 +25,3 @@ $(window).resize(function() {
 	}
 
 });
-
-$(document).ready(function() {		
-
-	$("select").each(function() {
-
-		$(this).select2({
-			minimumResultsForSearch: Infinity
-		});
-
-	});
-
-});
-
