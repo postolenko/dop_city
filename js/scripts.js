@@ -23,6 +23,7 @@ $(window).load(function() {
     getBgPath();
     getAtcile2Bg();
     getAtcile2BgPosition();
+    getTHumbsHeight();
 
 });
 
@@ -34,6 +35,7 @@ $(window).resize(function() {
     getBgPath();
     getAtcile2Bg();
     getAtcile2BgPosition();
+    getTHumbsHeight();
 
 });
 
@@ -138,6 +140,40 @@ $(document).ready(function() {
 
     });
 
+    $(function() {
+
+        $(".respmenubtn").click(function() {
+
+            if( $(".main-nav_wrapp").is(":hidden") ) {
+
+                $(".main-nav_wrapp").fadeIn(300);
+
+                $(this).addClass("active");
+
+            } else {
+
+                $(".main-nav_wrapp").fadeOut(300);
+
+                $(this).removeClass("active");
+
+            }
+
+        });
+
+        $(this).keydown(function(eventObject){
+
+            if (eventObject.which == 27 &&
+                $(".main-nav_wrapp").is(":visible") ) {
+
+                    $(".main-nav_wrapp").fadeOut(300);
+
+                    $(".respmenubtn").removeClass("active");
+
+            }
+
+        });
+
+    });
 
 
 });
@@ -195,20 +231,58 @@ function getBgPath() {
     $(".bgjs").each(function() {
         if($(this).offset().top <= ( $(document).scrollTop() + $(window).height() + 200 )) {
 
-            if( bodyWidth < parseInt( $(this).attr("data-bgresp") ) ) {
+            if( bodyWidth < parseInt( $(this).attr("data-respbgwidth") ) ) {
 
                 bgImgPath = $(this).attr("data-bgresp");
                 $(this).css({
                     "background-image" : "url(" + bgImgPath + ")"
                 });
+
             } else {
                 bgImgPath = $(this).attr("data-bg");
                 $(this).css({
                     "background-image" : "url(" + bgImgPath + ")"
                 });
+
             }
 
         }
     });
+
+}
+
+function getTHumbsHeight() {
+
+    if( bodyWidth <= 1124  && bodyWidth > 768 ) {
+
+        $(".thumbnails-4").each(function() {
+
+            thumbsHeightArr = [];
+
+            thumb = $(this).find(".thumb");
+
+            thumb.find(".inner").css({
+                "height" : "auto"
+            });
+
+            thumb.each(function() {
+
+                thumbHeight = $(this).find(".inner").height();
+
+                thumbsHeightArr.push(thumbHeight);
+
+            });
+
+            maxThumbHeight = Math.max.apply(null, thumbsHeightArr);
+
+            thumb.find(".inner").height(maxThumbHeight);
+
+        });
+
+    } else {
+
+        thumb.find(".inner").attr("style", "");
+
+    }
 
 }
