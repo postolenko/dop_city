@@ -19,6 +19,7 @@ $(window).load(function() {
 
     // });
 
+    getWrapperParams();
     getImgPath();
     getBgPath();
     getAtcile2Bg();
@@ -31,6 +32,7 @@ $(window).resize(function() {
 
     bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
+    getWrapperParams();
     getImgPath();
     getBgPath();
     getAtcile2Bg();
@@ -284,5 +286,23 @@ function getTHumbsHeight() {
         $(".thumbnails-4").find(".inner").attr("style", "");
 
     }
+
+}
+
+function getWrapperParams() {
+
+    if(bodyWidth <= 768 ) {
+
+        $(".wrapper").css({
+            "padding-top" : $(".header-site").height() + "px"
+        });
+
+    } else {
+
+        $(".wrapper").css({
+            "padding-top" : 0
+        });
+
+    }    
 
 }

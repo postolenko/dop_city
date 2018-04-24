@@ -903,7 +903,7 @@ textarea:focus {
     background: transparent;
     cursor: pointer;
     z-index: 12;
-    position: fixed;
+    position: absolute;
     top: 16px;
     right: 1%;
     border: 1px solid transparent;

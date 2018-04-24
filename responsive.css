@@ -228,11 +228,11 @@
 	}
 
 	.header-row-1 .row > .col-2 {
-	    width: 61%;
+	    width: 62%;
 	}
 
 	.header-row-1 .row > .col-3 {
-	    width: 27%;
+	    width: 26%;
 	}
 
 	.logo > .col-2 {
@@ -627,7 +627,24 @@
 	/*-- Header --*/
 
 	.header-site {
+		width: 100%;
 		padding-right: 57px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 10;
+		background: #ffffff;
+		-webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+		-moz-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+		box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+	}
+
+	.header-site p {
+	    padding: 3px 0;
+	}
+
+	.header-row-1 {
+	    padding: 1px 0;
 	}
 
 	.header-row-1 .row > .col-1 {
@@ -645,7 +662,7 @@
 	}
 
 	.thumb-1 {
-	    padding: 4px 10px;
+	    padding: 2px 10px;
 	}
 
 	.thumb-1 p {
@@ -998,16 +1015,16 @@
 	}
 
 	.header-row-1 .row > .col-1 {
-	    width: 19%;
+	    width: 16%;
 	}
 
 	.header-row-1 .row > .col-2 {
-	    width: 44%;
+	    width: 46%;
 	    padding-top: 0;
 	}
 
 	.header-row-1 .row > .col-3 {
-	    width: 37%;
+	    width: 38%;
 	}
 
 	.thumb-1 p.p-1 {
@@ -1416,6 +1433,10 @@
 
 
 @media only screen and (min-width: 769px) {
+
+	.wrapper {
+		padding-top: 0 !important;
+	}
 
 	.main-nav_wrapp {
 		display: block !important;
