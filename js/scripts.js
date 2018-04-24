@@ -281,7 +281,7 @@ function getTHumbsHeight() {
 
     } else {
 
-        thumb.find(".inner").attr("style", "");
+        $(".thumbnails-4").find(".inner").attr("style", "");
 
     }
 
