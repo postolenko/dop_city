@@ -47,6 +47,14 @@
 
 	/*-- /Header --*/
 
+	/*-- Section 3 - Main Page --*/
+
+	.thumbnails-2 {
+	    margin: 0 0 5px 0;
+	}
+
+	/*-- .Section 3 - Main Page --*/
+
 	/*-- Section 12 - main Page --*/
 
 	.thumbnails-8 {
@@ -363,8 +371,11 @@
 
 	/*-- Section 15 - main Page --*/
 
+	.contacts-sect .row {
+		height: auto;
+	}
+
 	#map {
-		position: relative;
 		height: 480px;
 	}
 

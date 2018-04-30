@@ -25,6 +25,7 @@ $(window).load(function() {
     getAtcile2Bg();
     getAtcile2BgPosition();
     getTHumbsHeight();
+    getMapSize();
 
 });
 
@@ -38,6 +39,7 @@ $(window).resize(function() {
     getAtcile2Bg();
     getAtcile2BgPosition();
     getTHumbsHeight();
+    getMapSize();
 
 });
 
@@ -304,5 +306,33 @@ function getWrapperParams() {
         });
 
     }    
+
+}
+
+function getMapSize() {
+
+    var map;
+    var contactsText;
+
+    $(".contacts-sect").each(function() {
+
+        map = $(this).find("#map");
+        contactsText = $(this).find(".contacts_wrapp");
+
+        if( bodyWidth >= 1024 ) {                
+
+            map.css({
+                "min-height" : contactsText.outerHeight() + "px"
+            });
+
+        } else {
+
+            map.css({
+                "min-height" : "auto"
+            });
+
+        }
+
+    });
 
 }
