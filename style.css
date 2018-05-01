@@ -1103,6 +1103,14 @@ textarea:focus {
 .promo-img_wrapp {
     position: relative;
     line-height: 0;
+    right: 3%;
+}
+
+.promo-img_wrapp img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
 }
 
 .promo-img_wrapp .promo-p {
