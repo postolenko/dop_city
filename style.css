@@ -580,6 +580,58 @@ textarea:focus {
     border-bottom: 1px dashed transparent;
 }
 
+.more-link {
+    position: relative;
+    padding-right: 19px;
+    font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: normal;
+    color: #e04b00;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-property: all;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+    -ms-transition-property: all;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+    -o-transition-property: all;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.more-link:link,
+.more-link:visited {
+    color: #e04b00;
+}
+
+.more-link:active,
+.more-link.active {
+    color: #769a16;
+}
+
+.more-link:hover {
+    color: #769a16;
+}
+
+.more-link:after {
+    display: block;
+    content: "";
+    width: 13px;
+    height: 11px;
+    position: absolute;
+    top: 6px;
+    right: 0;
+    background-image: url(img/arrows_orange.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /*-- /Links --*/
 
 /*-- Pills --*/
@@ -2826,7 +2878,39 @@ h2.shadow {
 
 /*-- /Section 15 - Main Page --*/
 
+/*-- Section 1 - Rewiews Page --*/
 
+.testimonial_wrapp {
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 20px;
+}
+
+.testimonial_wrapp:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.testimonial_2 .left {
+    width: 318px;
+    padding-top: 7px;
+    overflow: hidden;
+}
+
+.testimonial_2 .right {
+    width: calc(100% - 318px);
+}
+
+.rew_author {
+    margin: 0 -10px;
+}
+
+.rew_author .img-box {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px !important;
+}
+
+/*-- /Section 1 - Rewiews Page --*/
 
 
 

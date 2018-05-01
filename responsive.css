@@ -1466,6 +1466,15 @@
 
 	/*-- /Section 9 - main Page --*/
 
+	/*-- Section 1 - Rewiews Page --*/
+
+	.rew_author .img-box {
+	    width: 128px !important;
+	    height: 128px !important;
+	}
+
+	/*-- /Section 1 - Rewiews Page --*/
+
 	/*-- Footer --*/
 
 	.footer-nav .cell {
