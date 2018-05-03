@@ -38,5 +38,16 @@ $(document).ready(function() {
 
 	// });
 
+	$(".type_build_sl").not(".slick-initialized").slick({
+        dots: true,
+        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 10000,
+        speed: 1200,
+        slidesToShow: 1,
+        slidesToScroll: 1
+        // fade: true
+    });
+
 });
 
