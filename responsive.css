@@ -400,6 +400,58 @@
 
 	/*-- /Section 15 - main Page --*/
 
+	/*-- Section 1 - Main Page 2 --*/
+
+	.calculator .left {
+	    width: 100%;
+	    float: none;
+	    padding: 0 0 10px 0;
+	}
+
+	.calculator .right {
+	    width: 100%;
+	    float: none;
+	    padding: 10px 0 0 0;
+	}
+
+	.type_build_sl .slick-prev {
+	    left: -30px;
+	}
+
+	.type_build_sl .slick-next {
+	    right: -30px;
+	}
+
+	/*-- /Section 1 - Main Page 2 --*/
+
+	/*-- Section 2 - Main Page 2 --*/
+
+	.price_two_cols .old_price {
+		display: block;
+	}
+
+	.price_two_cols .price-txt {
+		display: block;
+	}
+
+	.price_two_cols .price_num {
+		display: block;
+	}
+
+	.price_two_cols .resp {
+		display: none;
+	}
+
+	.price_two_cols .new_price {
+	    width: 43%;
+	}
+
+	.price_two_cols .link_wrapp {
+	    width: 57%;
+	}
+
+	/*-- /Section 2 - Main Page 2 --*/
+
 	/*-- Footer --*/
 
 	.footer .row-1 .left {
@@ -619,6 +671,37 @@
 	}
 
 	/*-- /Section 13 - main Page --*/
+
+	/*-- Section 3 - Main Page 2 --*/
+
+	.article_6 .left {
+	    width: 100%;
+	    float: none;
+	    padding: 20px 0 0 0;
+	}
+
+	.article_6 .right {
+	    width: 100%;
+	    float: none;
+	    padding: 0;
+	}
+
+	.article_6 .photo-box {
+	    width: 405px;
+	    height: 405px;
+	    margin: 0 auto;
+	}
+
+	/*-- /Section 3 - Main Page 2 --*/
+
+	/*-- Section 4 - Main Page 2 --*/
+
+	.thumb-9 {
+	    width: 29.33%;
+	    margin: 38px 2%;
+	}
+
+	/*-- /Section 4 - Main Page 2 --*/
 
 }
 
@@ -953,6 +1036,65 @@
 	}
 		
 	/*-- /Section 15 - main Page --*/
+
+	/*-- Section 2 - Main Page 2 --*/
+
+	.price_article {
+	    padding: 55px 0 46px 0;
+	}
+
+	.article_5 {
+
+	}
+
+	.article_5 .right {
+		float: none;
+		width: 100%;
+	}
+
+	.article_5 .left {
+		float: none;
+		width: 100%;
+	}
+
+	.article_5 .right .img-box {
+	    width: 100%;
+	    margin-left: 0;
+	    overflow: hidden;
+	}
+
+	.wh-box {
+	    padding: 19px 20px 19px 20px;
+	}
+
+	.price_two_cols {
+		display: block;
+	}
+
+	.price_two_cols .col {
+		display: block;
+	    padding: 23px 20px 26px 20px;
+	}
+
+	.price_two_cols .col-1 {
+	    width: 100%;
+	}
+
+	.price_two_cols .col-2 {
+	    width: 100%;
+	   	border-left: none;
+	}
+
+	/*-- /Section 2 - Main Page 2 --*/
+
+	/*-- Section 4 - Main Page 2 --*/
+
+	.thumb-9 {
+	    width: 46%;
+	    margin: 38px 2%;
+	}
+
+	/*-- /Section 4 - Main Page 2 --*/
 
 	/*-- Footer --*/
 
@@ -1366,6 +1508,127 @@
 
 	/*-- /Section 14 - main Page --*/
 
+	/*-- Section 1 - Main Page 2 --*/
+
+	.calculator {
+	    border-width: 2px;
+	    margin: 37px 0;
+	    padding: 16px 3% 23px 3%;
+	}
+
+	.calculator h3 {
+	    font-size: 28px;
+	    line-height: 35px;
+	}
+
+	.thumb-10 {
+	    width: 48%;
+	    margin: 5px 1%;
+	}
+
+	.type_build_sl .slick-arrow {
+	    top: 100%;
+	}
+
+	.type_build_sl .slick-prev {
+	    margin-top: -40px;
+	    left: 1%;
+	}
+
+	.type_build_sl .slick-next {
+	    margin-top: -40px;
+	    right: 1%;
+	}
+
+	.type_build_sl .slick-dots {
+	    margin-top: 19px;
+	    padding: 0 44px;
+	}
+
+	.thumb-11 {
+	    width: 86px;
+	    height: 73px;
+	    margin: 10px;
+	}
+
+	.calculator .window_desc .br {
+	    display: block;
+	}
+
+	.calculator .price_wrapp .br {
+		display: block;
+	}
+
+	.calculator .old-price {
+	    margin: 0 0 0 10%;
+	}
+
+	/*-- /Section 1 - Main Page 2 --*/
+
+	/*-- Section 2 - Main Page 2 --*/
+
+	.wh-box h3 {
+	    font-size: 27px;
+	    line-height: 35px;
+	}
+
+	.price_two_cols .new_price_wrapp {
+	    display: block;
+	}
+
+	.price_two_cols .new_price {
+		display: block;
+		width: 100%;
+		padding: 0 0 5px 0;
+	}
+
+	.price_two_cols .link_wrapp {
+	    display: block;
+	    width: 100%;
+	    padding: 5px 0 0 0;
+	    text-align: left;
+	}
+
+	/*-- /Section 2 - Main Page 2 --*/
+
+	/*-- Section 3 - Main Page 2 --*/
+
+	.article_6 .photo-box {
+	    width: 300px;
+	    height: 300px;
+	    border: 5px solid #fc7400;
+	}
+
+	.article_6 p {
+	    font-size: 21px;
+	    line-height: 28px;
+	}
+
+	.article_6 p.p-1 {
+	    font-size: 23px;
+	    line-height: 27px;
+	}
+
+	/*-- /Section 3 - Main Page 2 --*/
+
+	/*-- Section 4 - Main Page 2 --*/
+
+	.thumb-9 {
+		margin: 38px 1%;
+	}
+
+	.thumb-9 .img-box {
+	    max-width: 147px;
+	    margin: 0 auto;
+	}
+
+	.thumb-9 .p-1 {
+	    font-size: 18px;
+	    line-height: 21px;
+	}
+
+	/*-- /Section 4 - Main Page 2 --*/
+
 	/*-- Popups --*/
 
 	.callback-content h3 {
@@ -1475,6 +1738,21 @@
 
 	/*-- /Section 1 - Rewiews Page --*/
 
+	/*-- Section 3 - Main Page 2 --*/
+
+	.article_6 .photo-box {
+	    width: 270px;
+	    height: 270px;
+	}
+
+	/*-- /Section 3 - Main Page 2 --*/
+
+	/*-- Section 4 - Main Page 2 --*/
+
+
+
+	/*-- /Section 4 - Main Page 2 --*/
+
 	/*-- Footer --*/
 
 	.footer-nav .cell {
@@ -1484,6 +1762,28 @@
 
 	/*-- /Footer --*/
 	
+}
+
+@media only screen and (max-width: 430px) {
+
+	/*-- Section 4 - Main Page 2 --*/
+
+	.thumb-9 {
+		width: 100%;
+		margin: 20px 0;
+	}
+
+	.thumb-9 .img-box {
+	    max-width: 100%;
+	}
+
+	.thumb-9 .p-1 {
+	    font-size: 21px;
+	    line-height: 24px;
+	}
+
+	/*-- /Section 4 - Main Page 2 --*/
+
 }
 
 

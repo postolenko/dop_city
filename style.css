@@ -3237,6 +3237,10 @@ h2.shadow {
     color: #000000;
 }
 
+.calculator .window_desc .br {
+    display: none;
+}
+
 .calculator .price_wrapp {
     padding: 9px 0;
 }
@@ -3284,6 +3288,10 @@ h2.shadow {
 
 .calculator .price_wrapp p .orange {
     color: #ff4a00;
+}
+
+.calculator .price_wrapp .br {
+    display: none;
 }
 
 .calculator .green-pill {
@@ -3470,13 +3478,14 @@ h2.shadow {
 .price_two_cols .new_price {
     display: table-cell;
     vertical-align: middle;
-    width: 55%;
+    width: 53%;
 }
 
 .price_two_cols .link_wrapp {
     display: table-cell;
     vertical-align: middle;
-    width: 45%;
+    width: 48%;
+    padding-left: 2%;
     text-align: right;
 }
 
@@ -3524,7 +3533,7 @@ h2.shadow {
 
 .article_6 .right {
     width: 52%;
-    padding-left: 6px;
+    padding-left: 13px;
 }
 
 .article_6 .photo-box {
