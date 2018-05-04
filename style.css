@@ -1196,6 +1196,7 @@ textarea:focus {
     max-width: 600px;
     margin: 0 auto;
     padding: 24px 4.5% 36px 4.5%;
+    text-align: center;
     border-width: 1px;
     border-color: rgb(236, 223, 210);
     border-style: solid;
@@ -2655,7 +2656,7 @@ h2.shadow {
 }
 
 .article_4 {
-    padding: 54px 0 0 0;
+    padding: 44px 0 0 0;
 }
 
 .article_4 .left-col {
@@ -2663,7 +2664,7 @@ h2.shadow {
     vertical-align: bottom;
     width: calc(100% - 610px);
     padding-right: 2%;
-    padding-bottom: 36px;
+    padding-bottom: 66px;
     position: relative;
     z-index: 2;
 }
@@ -2964,10 +2965,6 @@ h2.shadow {
     line-height: 44px;
     font-weight: bold;
     color: #ff4a00;
-}
-
-.thumbnails-10 {
-
 }
 
 .thumb-10 {
@@ -3324,10 +3321,6 @@ h2.shadow {
 
 .price_article .row {
     max-width: 1020px;
-}
-
-.article_5 {
-
 }
 
 .article_5 .left {
