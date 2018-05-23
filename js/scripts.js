@@ -7,17 +7,19 @@ bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 var bgLeft;
 var leftCoord;
 
+var parentBlock;
+
 $(window).load(function() {
 
-    // $("select").each(function() {
+    $("select").each(function() {
 
-    //     var parentBlock = $(this).closest(".select-block");
+        parentBlock = $(this).closest(".select-block");
 
-    //     parentBlock.find(".select2-container").css({
-    //         "width" : parentBlock.width() + "px"
-    //     });
+        parentBlock.find(".select2-container").css({
+            "width" : parentBlock.width() + "px"
+        });
 
-    // });
+    });
 
     getWrapperParams();
     getImgPath();
@@ -40,6 +42,18 @@ $(window).resize(function() {
     getAtcile2BgPosition();
     getTHumbsHeight();
     getMapSize();
+
+    // --------------------------
+
+    $("select").each(function() {
+
+        parentBlock = $(this).closest(".select-block");
+
+        parentBlock.find(".select2-container").css({
+            "width" : parentBlock.width() + "px"
+        });
+
+    });
 
 });
 
@@ -176,6 +190,22 @@ $(document).ready(function() {
             }
 
         });
+
+    });
+
+    $(".window_miniatures .wind_type").click(function(e) {
+
+        e.preventDefault();
+        
+        if( !$(this).hasClass("active") ) {
+
+            parentBlock = $(this).closest(".window_miniatures");
+
+            parentBlock.find(".wind_type").removeClass("active");
+
+            $(this).addClass("active");
+
+        }        
 
     });
 

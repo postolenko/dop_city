@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/select2.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.fancybox.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/nouislider.css">
+	<script type="text/javascript" src="vendors/js/jquery.js"></script>
+	<script type="text/javascript" src="slick/slick.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="vendors/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="vendors/js/select2.js"></script>
+	<script type="text/javascript" src="vendors/js/wNumb.js"></script>
+	<script type="text/javascript" src="vendors/js/nouislider.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<title>Пластиковые окна в Москве в розницу по оптовым ценам — Dop-city</title>
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+	<!-- Popups -->
+
+	<div class="popup_wrapp scroll" data-popup ="popup_1">
+		<div class="popup">
+			<div class="popup_header">
+				<h3>Выберите город</h3>
+				<button type="button" class="close-popup"></button>
+			</div>
+			<div class="popup-content">
+				<div class="overflow_wrapp">
+					<ul class="cities_list offset-ziro">
+						<li><a href="#">Апрелевка</a></li>
+						<li><a href="#">Балашиха</a></li>
+						<li><a href="#">Бронницы</a></li>
+						<li><a href="#">Верея</a></li>
+						<li><a href="#">Видное</a></li>
+						<li><a href="#">Волоколамск</a></li>
+						<li><a href="#">Воскресенск</a></li>
+						<li><a href="#">Голицыно</a></li>
+						<li><a href="#">Дедовск</a></li>
+						<li><a href="#">Дзержинск</a></li>
+						<li><a href="#">Дмитров</a></li>
+						<li><a href="#">Долгопрудный</a></li>
+						<li><a href="#">Домодедово</a></li>
+						<li><a href="#">Железнодорожный</a></li>
+						<li><a href="#">Жуковское</a></li>
+						<li><a href="#">Звенигород</a></li>
+						<li><a href="#">Зеленоград</a></li>
+						<li><a href="#">Истра</a></li>
+						<li><a href="#">Климовск</a></li>
+						<li><a href="#">Клин</a></li>
+						<li><a href="#">Коломна</a></li>
+						<li><a href="#">Королёв</a></li>
+						<li><a href="#">Красногорск</a></li>
+						<li><a href="#">Краснознаменск</a></li>
+						<li><a href="#">Кубинка</a></li>
+						<li><a href="#">Лобна</a></li>
+						<li><a href="#">Лыткарино</a></li>
+						<li><a href="#">Люберцы</a></li>
+						<li><a href="#">Можайск</a></li>
+						<li><a href="#">Мытищи</a></li>
+						<li><a href="#">Наро-Фоминск</a></li>
+						<li><a href="#">Нахабино</a></li>
+						<li><a href="#">Ногинск</a></li>
+						<li><a href="#">Одинцово</a></li>
+						<li><a href="#">Орехово-Зуево</a></li>
+						<li><a href="#">Власиха</a></li>
+						<li><a href="#">Купавна</a></li>
+						<li><a href="#">Павловский Посад</a></li>
+						<li><a href="#">Подольск</a></li>
+						<li><a href="#">Сергиев Посад</a></li>
+						<li><a href="#">Раменское</a></li>
+						<li><a href="#">Реутов</a></li>
+						<li><a href="#">Руза</a></li>
+						<li><a href="#">Серпухов</a></li>
+						<li><a href="#">Солнечногорск</a></li>
+						<li><a href="#">Старая Сходня</a></li>
+						<li><a href="#">Троицк</a></li>
+						<li><a href="#">Фрязино</a></li>
+						<li><a href="#">Химки</a></li>
+						<li><a href="#">Хотьково</a></li>
+						<li><a href="#">Черноголовка</a></li>
+						<li><a href="#">Чехов</a></li>
+						<li><a href="#">Шатура</a></li>
+						<li><a href="#">Электросталь</a></li>
+						<li><a href="#">Электроугли</a></li>
+						<li><a href="#">Юбилейный</a></li>
+						<li><a href="#">Яхрома</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="popup-footer clearfix">
+				<form>
+					<div class="left">
+						<input type="text" class="city-choose" id="city_ch" readonly value="" />
+					</div>
+					<div class="right align-right">
+						<button type="button" class="green-pill close_city">Выбрать</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_2">
+		<div class="popup callback-popup clearfix">
+			<img class="popup_img" src="img/popup_img.png" alt="" />
+			<img  class="discount" src="img/discount_popup.png" alt="" />
+			<button type="button" class="close-popup close-popup_2"></button>
+			<div class="callback-content">
+				<h3>Спешите забронировать</h3>
+				<h4>окна по акции - <span class="shadow">завтра будет дороже</span></h4>
+				<div class="form-3 popup-form">
+					<form>											
+						<h3>Оставьте заявку и наш менеджер рассчитает стоимость окон<br /> <b>по сниженной цене</b></h3>
+						<p class="p-1">Обязательно зафиксируйте сейчас<br /> <b>подарки и выгодную цену!</b></p>
+						<div class="form-fields">
+							<div class="input_wrapp">
+								<input type="text" placeholder="Введите имя">
+							</div>
+							<div class="input_wrapp">
+								<input type="tel" placeholder="Введите номер телефона">
+							</div>
+							<div class="input_wrapp">
+								<a href="#" class="green-pill">Участвовать в акции</a>
+							</div>
+						</div>
+						<div class="form-footer">
+							<p>Нажимая на "Участвовать в акции" вы даете согласие на<br /> <a href="#">обработку своих персональных данных</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_3">
+		<div class="popup callback-popup clearfix">
+			<img class="popup_img_2" src="img/popup_img_02.png" alt="" />
+			<button type="button" class="close-popup close-popup_2"></button>
+			<div class="callback-content">
+				<h3 class="shadow">Узнайте цену по акции</h3>
+				<h4>на двухстворчатое окно ПВХ</h4>
+				<div class="form-3 popup-form">
+					<form>											
+						<h3>Оставьте заявку и наш менеджер рассчитает стоимость окон<br /> <b>по сниженной цене</b></h3>
+						<p class="p-1 medium">Это бесплатно!</p>
+						<div class="form-fields">
+							<div class="input_wrapp">
+								<input type="text" placeholder="Введите имя">
+							</div>
+							<div class="input_wrapp">
+								<input type="tel" placeholder="Введите номер телефона">
+							</div>
+							<div class="input_wrapp">
+								<a href="#" class="green-pill">Участвовать в акции</a>
+							</div>
+						</div>
+						<div class="form-footer">
+							<p>Нажимая на "Участвовать в акции" вы даете согласие на<br /> <a href="#">обработку своих персональных данных</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_4">
+		<div class="popup callback-popup clearfix">
+			<img class="popup_img_3" src="img/popup_img_03.png" alt="" />
+			<button type="button" class="close-popup close-popup_2"></button>
+			<div class="callback-content">
+				<h3 class="shadow">Узнайте цену по акции</h3>
+				<h4>на трехстворчатое окно ПВХ</h4>
+				<div class="form-3 popup-form">
+					<form>											
+						<h3>Оставьте заявку и наш менеджер рассчитает стоимость окон<br /> <b>по сниженной цене</b></h3>
+						<p class="p-1 medium">Это бесплатно!</p>
+						<div class="form-fields">
+							<div class="input_wrapp">
+								<input type="text" placeholder="Введите имя">
+							</div>
+							<div class="input_wrapp">
+								<input type="tel" placeholder="Введите номер телефона">
+							</div>
+							<div class="input_wrapp">
+								<a href="#" class="green-pill">Участвовать в акции</a>
+							</div>
+						</div>
+						<div class="form-footer">
+							<p>Нажимая на "Участвовать в акции" вы даете согласие на<br /> <a href="#">обработку своих персональных данных</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_5">
+		<div class="popup callback-popup clearfix">
+			<img class="popup_img_4" src="img/popup_img_04.png" alt="" />
+			<button type="button" class="close-popup close-popup_2"></button>
+			<div class="callback-content">
+				<h3 class="shadow">Узнайте цену по акции</h3>
+				<h4>на балконный блок ПВХ</h4>
+				<div class="form-3 popup-form">
+					<form>											
+						<h3>Оставьте заявку и наш менеджер рассчитает стоимость окон<br /> <b>по сниженной цене</b></h3>
+						<p class="p-1 medium">Это бесплатно!</p>
+						<div class="form-fields">
+							<div class="input_wrapp">
+								<input type="text" placeholder="Введите имя">
+							</div>
+							<div class="input_wrapp">
+								<input type="tel" placeholder="Введите номер телефона">
+							</div>
+							<div class="input_wrapp">
+								<a href="#" class="green-pill">Участвовать в акции</a>
+							</div>
+						</div>
+						<div class="form-footer">
+							<p>Нажимая на "Участвовать в акции" вы даете согласие на<br /> <a href="#">обработку своих персональных данных</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_6">
+		<div class="popup callback-popup clearfix">
+			<img class="popup_img_5" src="img/popup_img_05.png" alt="" />
+			<button type="button" class="close-popup close-popup_2"></button>
+			<div class="callback-content">
+				<h3>Запишитесь</h3>
+				<h4>на <span class="shadow">бесплатный замер</span> Ваших окон</h4>
+				<div class="form-3 popup-form">
+					<form>											
+						<h3>Оставьте заявку<br /> и наш менеджер подберет<br /> <b>удобное время замера</b> для Вас</h3>
+						<div class="form-fields">
+							<div class="input_wrapp">
+								<input type="text" placeholder="Введите имя">
+							</div>
+							<div class="input_wrapp">
+								<input type="tel" placeholder="Введите номер телефона">
+							</div>
+							<div class="input_wrapp">
+								<a href="#" class="green-pill">Подобрать время замера</a>
+							</div>
+						</div>
+						<div class="form-footer">
+							<p>Нажимая на "Подобрать время замера" вы даете согласие на<br /> <a href="#">обработку своих персональных данных</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="red-box">
+				<p>Сегодня записались на замер: <b>30</b></p>
+				<p>Осталось мест: <b>3</b></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_7">
+		<div class="popup callback-popup clearfix">
+			<img class="popup_img_6" src="img/popup_img_06.png" alt="" />
+			<button type="button" class="close-popup close-popup_2"></button>
+			<div class="callback-content">
+				<h3>Мы Вам перезвоним!</h3>
+				<div class="form-3 popup-form">
+					<form>											
+						<h3>Оставьте заявку и наш менеджер<br /> с радостью ответит на все<br /> Ваши вопросы и подберет окна<br /> <b>по выгодной цене!</b></h3>
+						<div class="form-fields">
+							<div class="input_wrapp">
+								<input type="text" placeholder="Введите имя">
+							</div>
+							<div class="input_wrapp">
+								<input type="tel" placeholder="Введите номер телефона">
+							</div>
+							<div class="input_wrapp">
+								<a href="#" class="green-pill">Перезвоните мне</a>
+							</div>
+						</div>
+						<div class="form-footer">
+							<p>Нажимая на "Перезвоните мне" вы даете согласие на<br /> <a href="#">обработку своих персональных данных</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- /Popups -->
+
+	<!-- Header -->
+		
+	<header>
+		<div class="header-site">
+			<div class="header-row-1">
+				<div class="row clearfix">
+					<div class="col col-1">
+						<a href="#" class="logo">
+							<div class="col col-1">
+								<img src="img/logo.png" alt="" />
+							</div>
+							<div class="col col-2">
+								<p>Пластиковые окна<br /> в розницу<br /> по оптовым ценам</p>
+							</div>
+						</a>
+					</div>
+					<div class="col col-2">
+						<div class="thumb-1">
+							<a href="#" class="inner">
+								<div class="col col-1">
+									<img src="img/calc.png" alt="" />
+								</div>
+								<div class="col col-2">
+									<div>
+										<p class="p-1">Калькулятор</p>
+									</div>
+									<div>
+										<p>Рассчитайте стоимость</p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="thumb-1">
+							<a href="#" class="inner show_popup" data-popup-name="popup_6">
+								<div class="col col-1">
+									<img src="img/ruler.png" alt="" />
+								</div>
+								<div class="col col-2">
+									<div>
+										<p class="p-1">Вызвать замерщика</p>
+									</div>
+									<div>
+										<p>Бесплатно в любое время</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col col-3">
+						<a href="#tel:84951811122" class="tel-link">8 (495) 181 11 22</a><br />
+						<p class="work-time">Ежедневно с 9.00 до 19.00</p>
+						<a href="#" class="orange_link show_popup" data-popup-name="popup_7">Заказать звонок</a>
+					</div>
+					<button class="respmenubtn respbtn_1">	
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+			</div>
+
+			<div class="header-row-2">
+				<div class="row">
+					<div class="main-nav_wrapp">
+						<ul class="main-nav offset-ziro">
+							<li><a href="#" class="active">Пластиковые окна</a></li>
+							<li><a href="#">Цены на окна</a></li>
+							<li><a href="#">Окна в квартиру</a></li>
+							<li><a href="#">Остекление балконов</a></li>
+							<li><a href="#">Отделка балконов</a></li>
+							<li><a href="#">Остекление домов</a></li>
+							<li><a href="#">Двери</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+								
+	</header>
+
+	<!-- /Header -->
+
+		<!-- Content -->
+			<div class="content">
+
+				<!-- Section 1 - Calc Page -->
+
+				<section>
+
+					<div class="row">
+
+						<div class="h-shape">
+							<h2>Изготовим, доставим и установим<br /> окна любых размеров и цветов</h2>
+							<p class="p-desc-orange">по самой низкой цене в Москве</p>
+						</div>
+
+						<div class="calc_wrapp">
+							
+							<h3>Узнайте цену на окна в online калькуляторе</h3>
+
+							<div class="calc-article clearfix">
+								<div class="left clearfix ranges">
+									<div class="clearfix">
+										<div class="range_wrapp range_1_wrapp">
+											<input class="range_val" id="range1_val" type="number" name="">
+											<p>Высота (см)</p>
+											<div id="range_1"></div>
+										</div>
+										<div class="window-change">
+											<div class="img-box">
+												<img src="img/window_big.png" alt="" />
+											</div>
+										</div>
+									</div>
+									<div class="range_wrapp range_2_wrapp">
+										<div class="col-1">
+											<div id="range_2"></div>
+										</div>
+										<div class="col-2">
+											<input class="range_val" id="range2_val" type="number" name="">
+											<p>Ширина (см)</p>
+										</div>
+									</div>
+								</div>
+								<div class="right">
+									<div class="window_miniatures">
+										<div class="wind_type">
+											<img src="img/w_1.png" alt="" />
+										</div>
+										<div class="wind_type">
+											<img src="img/w_2.png" alt="" />
+										</div>
+										<div class="wind_type active">
+											<img src="img/w_3.png" alt="" />
+										</div>
+										<div class="wind_type">
+											<img src="img/w_4.png" alt="" />
+										</div>
+										<div class="wind_type">
+											<img src="img/w_5.png" alt="" />
+										</div>
+									</div>
+
+									<div class="additional_wrapp">
+										<h3>Выберите дополнительные элементы</h3>
+										<div class="select_wrapp_2">
+											<div class="title">
+												<p>Ширина подоконника</p>
+											</div>
+											<div class="select-block">
+												<select data-placeholder="Нет">
+													<option></option>
+													<option>Опция 1</option>
+													<option>Опция 2</option>
+													<option>Опция 3</option>
+												</select>
+											</div>
+										</div>
+										<div class="select_wrapp_2">
+											<div class="title">
+												<p>Ширина отлива</p>
+											</div>
+											<div class="select-block">
+												<select data-placeholder="Нет">
+													<option></option>
+													<option>Опция 1</option>
+													<option>Опция 2</option>
+													<option>Опция 3</option>
+												</select>
+											</div>
+										</div>
+										<div class="select_wrapp_2">
+											<div class="title">
+												<p>Нужен монтаж</p>
+											</div>
+											<div class="select-block">
+												<select data-placeholder="Нет">
+													<option></option>
+													<option>Нет</option>
+													<option>Да</option>
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="price_wrapp_2 clearfix">
+								<div class="left col-1">
+									<p>Цена окна со скидкой:</p>
+									<div class="prices_wrapp_2">
+										<div>
+											<p class="old-price">7731 руб</p>
+										</div>
+										<div>
+											<p class="price">6185 руб</p>
+										</div>
+									</div>
+								</div>
+								<div class="right col-2">
+									<div class="inline-blocks">
+										<div class="select-block select-block_3">
+											<select data-placeholder="Выберите подарок">
+												<option></option>
+												<option>Подарок 1</option>
+												<option>Подарок 2</option>
+												<option>Подарок 3</option>
+											</select>
+										</div>
+										<div>
+											<a href="#" class="green-pill green-pill_2 card-btn"><i class="basket"></i>Добавить в корзину</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="total-price_wrapp clearfix">
+								<div class="left">
+									<h3>Итоговая стоимость:</h3>
+								</div>
+								<div class="right">
+									<div class="inline-blocks">
+										<div>
+											<p class="total-price">6185 руб</p>
+										</div>
+										<div>
+											<button type="submit" class="green-pill">Отправить заказ</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 1 - Calc Page -->
+
+				<!-- Section 2 - Calc Page -->
+
+				<<!-- section>
+					
+					<div class="row">
+						<div class="form_3_wrapp">
+
+							<div class="form-3">
+								<h3>У вас уже готов<br /> проект остекления?</h3>
+								<p>Рассчитаем стоимость остеления вашего дома по самой щедрой цене в Москве!</p>
+								<form>
+									<div class="clearfix">
+										<div class="left">
+											<div class="input_wrapp">
+												<input type="tel" placeholder="Ваш телефон">
+											</div>
+										</div>
+										<div class="left">
+											<button type="submit" class="green-pill">Узнать стоимость</button>
+										</div>
+									</div>
+									<div class="upload">
+										<input type="file" id="file_2">
+										<label for="file_2"><i class="file-icon"></i> <span>Прикрепить фаил</span></label>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+
+				</section> -->
+
+				<!-- /Section 2 - Calc Page -->
+
+			</div>
+		<!-- /Content -->
+
+		<!-- Footer -->
+
+		<footer>
+
+			<div class="footer">
+				<div class="row row-1 clearfix">
+					<div class="left">
+						<a href="#" class="logo">
+							<div class="col col-1">
+								<img src="img/logo.png" alt="" />
+							</div>
+							<div class="col col-2">
+								<p>Пластиковые окна<br /> в розницу<br /> по оптовым ценам</p>
+							</div>
+						</a>
+					</div>
+					<div class="right">
+						<div class="footer-nav offset-ziro">
+							<div class="cell">
+								<p>
+									<a href="#">Пластиковые окна</a>
+								</p>
+								<p>
+									<a href="#">Окна в квартиру</a>
+								</p>
+							</div>
+							<div class="cell">
+								<p>
+									<a href="#">Отделка балконов</a>
+								</p>
+								<p>
+									<a href="#">Двери</a>
+								</p>
+							</div>
+							<div class="cell">
+								<p>
+									<a href="#">Цены на окна</a>
+								</p>
+								<p>
+									<a href="#">Остекление балконов</a>
+								</p>
+							</div>
+							<div class="cell">
+								<p>
+									<a href="#">Остекление домов</a>
+								</p>
+								<p>
+									<a href="#">Контакты</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row-2">
+					<div class="row clearfix">
+						<div class="left">
+							<a class="grey-line_link" href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="right">
+							<p class="webstudio-p"><span>Разработка&nbsp;&nbsp;– </span> <a href="http://reforge.ru/" class="reforge"></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+
+		<!-- /Footer -->
+
+		<script src="js/scripts.js"></script>
+		<script src="js/additional_scripts.js"></script>
+		<script src="js/map.js"></script>
+	
+	</div>
+
+</body>
+</html>
