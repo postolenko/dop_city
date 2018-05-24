@@ -892,6 +892,15 @@ textarea:focus {
     border-bottom: 2px solid transparent;
 }
 
+.thumb-1 .inner.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.thumb-1 .inner.disabled p.p-1 {
+    border-bottom: 2px solid transparent !important;
+}
+
 .header-site p {
     padding: 5px 0;
     font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
