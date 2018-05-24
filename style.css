@@ -3766,6 +3766,10 @@ h2.shadow {
 
 /*-- Section 1 - Calc Page --*/
 
+.calc-sect {
+    overflow: hidden;
+}
+
 .h-shape {
     text-align: center;
     padding: 40px 0 32px 0;
@@ -3825,10 +3829,6 @@ h2.shadow {
 .calc-article .right {
     width: 48%;
     padding: 0 0 0 1%;
-}
-
-.ranges {
-    overflow: hidden;
 }
 
 .range_1_wrapp {
