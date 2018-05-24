@@ -356,7 +356,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 
 .noUi-vertical .noUi-tooltip {
     margin-right: 9px;
-    outline: none !important;
 }
 
 .noUi-tooltip {
@@ -428,4 +427,8 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   left: 50%;
   margin: 0 0 0 -6px;
   border-color: transparent transparent #df6933 transparent;
+}
+
+.noUi-handle.noUi-handle-lower {
+  outline: 1px solid transparent;
 }

@@ -478,6 +478,17 @@ textarea:focus {
     background-repeat: no-repeat;
 }
 
+.clip {
+    display: inline-block;
+    vertical-align: top;
+    width: 15px;
+    height: 19px;
+    background-image: url(img/clip.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /*-- /Icons --*/
 
 /*-- Links --*/
@@ -2157,8 +2168,8 @@ h2.shadow {
 }
 
 .upload label span {
-    display: inline-block;
-    vertical-align: top;
+    display: inline;
+    cursor: pointer;
     border-bottom: 1px solid rgba(255, 255, 255, .8);
     font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
     font-size: 18px;
@@ -3789,18 +3800,18 @@ h2.shadow {
 }
 
 .calc_wrapp {
-    margin: 25px 0 0 0;
+    margin: 31px 0 0 0;
 }
 
 .calc-article {
-    margin: 23px 0;
+    margin: 26px 0 20px 0;
 }
 
 .calc_wrapp h3 {
     text-align: center;
     font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
     font-size: 30px;
-    line-height: 48px;
+    line-height: 37px;
     font-weight: normal;
     color: #000000;
 }
@@ -3814,6 +3825,10 @@ h2.shadow {
 .calc-article .right {
     width: 48%;
     padding: 0 0 0 1%;
+}
+
+.ranges {
+    overflow: hidden;
 }
 
 .range_1_wrapp {
@@ -3879,27 +3894,26 @@ h2.shadow {
 }
 
 .additional_wrapp h3 {
-    padding-bottom: 22px;
+    padding: 8px 0 25px 0;
     text-align: left;
     font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
     font-size: 24px;
-    line-height: 41px;
-    font-weight: normal;
+    line-height: 30px;
+    font-weight: 500;
     color: #000000;
 }
 
 .select_wrapp_2 {
-    display: table;
-    width: 100%;
     padding: 8px 0;
+    font-size: 0;
+    line-height: 0;
 }
 
 .select_wrapp_2 .title {
-    display: table-cell;
+    display: inline-block;
     vertical-align: top;
     width: 42%;
-    padding-right: 5px;
-    padding-top: 8px;
+    padding: 8px 5px 8px 0;
 }
 
 .select_wrapp_2 .title p {
@@ -3911,7 +3925,7 @@ h2.shadow {
 }
 
 .select_wrapp_2 .select-block {
-    display: table-cell;
+    display: inline-block;
     vertical-align: top;
     width: 58%;
     padding-left: 5px;
@@ -4036,13 +4050,13 @@ h2.shadow {
 }
 
 .price_wrapp_2 .col-1 {
-    width: 34%;
+    width: 32%;
     overflow: hidden;
     padding: 12px 1% 12px 0;
 }
 
 .price_wrapp_2 .col-2 {
-    width: 66%;
+    width: 68%;
     padding: 10px 0 10px 1%;
 }
 
@@ -4112,8 +4126,7 @@ h2.shadow {
 }
 
 .select-block_3 {
-    width: 100%;
-    max-width: 380px;
+    width: 380px !important;
     text-align: left;
 }
 
@@ -4163,10 +4176,76 @@ h2.shadow {
 
 /*-- /Section 1 - Calc Page --*/
 
+/*-- Section 2 - Calc Page --*/
 
+.sect-2_2 {
+    padding: 20px 0;
+    background-image: url(img/bg_13.jpg); 
+    background-size: cover;
+    background-position: center;
+}
 
+.form_4_wrapp {
+    max-width: 595px;
+    padding: 20px 2% 18px 2%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: rgb(255, 74, 0);
+}
 
+.form-4 h3 {
+    padding: 5px 0;
+    font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: bold;
+    color: #ffffff;
+}
 
+.form-4 p {
+    padding: 5px 0;
+    font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.two-cols {
+    margin: 15px 0 5px 0;
+}
+
+.two-cols .left {
+    width: 50%;
+    padding: 10px 1% 10px 0;
+}
+
+.two-cols .right {
+    width: 50%;
+    padding: 10px 0 10px 1%;
+}
+
+.two-cols .green-pill {
+    width: 100%;
+    -webkit-box-shadow: 0 0 15px 0 rgba(101,156,0,.5);
+    -moz-box-shadow: 0 0 15px 0 rgba(101,156,0,.5);
+    box-shadow: 0 0 15px 0 rgba(101,156,0,.5);
+}
+
+.form-4 .upload {
+    margin: 3px 0 5px 0;
+}
+
+.form-4 .upload label span {
+    font-weight: bold;
+}
+
+.upload label .clip {
+    top: 0;
+}
+
+/*-- /Section 2 - Calc Page --*/
 
 
 

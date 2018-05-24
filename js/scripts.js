@@ -11,16 +11,6 @@ var parentBlock;
 
 $(window).load(function() {
 
-    $("select").each(function() {
-
-        parentBlock = $(this).closest(".select-block");
-
-        parentBlock.find(".select2-container").css({
-            "width" : parentBlock.width() + "px"
-        });
-
-    });
-
     getWrapperParams();
     getImgPath();
     getBgPath();
@@ -28,6 +18,7 @@ $(window).load(function() {
     getAtcile2BgPosition();
     getTHumbsHeight();
     getMapSize();
+    getSelectWidth();
 
 });
 
@@ -42,18 +33,7 @@ $(window).resize(function() {
     getAtcile2BgPosition();
     getTHumbsHeight();
     getMapSize();
-
-    // --------------------------
-
-    $("select").each(function() {
-
-        parentBlock = $(this).closest(".select-block");
-
-        parentBlock.find(".select2-container").css({
-            "width" : parentBlock.width() + "px"
-        });
-
-    });
+    getSelectWidth();
 
 });
 
@@ -206,6 +186,20 @@ $(document).ready(function() {
             $(this).addClass("active");
 
         }        
+
+    });
+
+    $( "input[type='file']" ).change(function() {
+
+      fileValArr = $(this).val().split("\\");
+
+      fileName = fileValArr[fileValArr.length - 1];
+
+      parentBlock = $(this).closest(".upload");
+
+      fileNameWrapp = parentBlock.find("label span");
+
+      fileNameWrapp.text(fileName);
 
     });
 
@@ -362,6 +356,21 @@ function getMapSize() {
             });
 
         }
+
+    });
+
+}
+
+
+function getSelectWidth() {
+
+    $("select").each(function() {
+
+        parentBlock = $(this).closest(".select-block");
+
+        parentBlock.find(".select2-container").css({
+            "width" : parentBlock.width() + "px"
+        });
 
     });
 
