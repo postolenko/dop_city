@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/select2.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.fancybox.css">
+	<script type="text/javascript" src="vendors/js/jquery.js"></script>
+	<script type="text/javascript" src="slick/slick.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="vendors/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.maskedinput.min.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
+	<title>Пластиковые окна в Москве в розницу по оптовым ценам — Dop-city</title>
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+	<!-- Popups -->
+
+	<div class="popup_wrapp scroll" data-popup ="popup_1">
+		<div class="popup">
+			<div class="popup_header">
+				<h3>Выберите город</h3>
+				<button type="button" class="close-popup"></button>
+			</div>
+			<div class="popup-content">
+				<div class="overflow_wrapp">
+					<ul class="cities_list offset-ziro">
+						<li><a href="#">Апрелевка</a></li>
+						<li><a href="#">Балашиха</a></li>
+						<li><a href="#">Бронницы</a></li>
+						<li><a href="#">Верея</a></li>
+						<li><a href="#">Видное</a></li>
+						<li><a href="#">Волоколамск</a></li>
+						<li><a href="#">Воскресенск</a></li>
+						<li><a href="#">Голицыно</a></li>
+						<li><a href="#">Дедовск</a></li>
+						<li><a href="#">Дзержинск</a></li>
+						<li><a href="#">Дмитров</a></li>
+						<li><a href="#">Долгопрудный</a></li>
+						<li><a href="#">Домодедово</a></li>
+						<li><a href="#">Железнодорожный</a></li>
+						<li><a href="#">Жуковское</a></li>
+						<li><a href="#">Звенигород</a></li>
+						<li><a href="#">Зеленоград</a></li>
+						<li><a href="#">Истра</a></li>
+						<li><a href="#">Климовск</a></li>
+						<li><a href="#">Клин</a></li>
+						<li><a href="#">Коломна</a></li>
+						<li><a href="#">Королёв</a></li>
+						<li><a href="#">Красногорск</a></li>
+						<li><a href="#">Краснознаменск</a></li>
+						<li><a href="#">Кубинка</a></li>
+						<li><a href="#">Лобна</a></li>
+						<li><a href="#">Лыткарино</a></li>
+						<li><a href="#">Люберцы</a></li>
+						<li><a href="#">Можайск</a></li>
+						<li><a href="#">Мытищи</a></li>
+						<li><a href="#">Наро-Фоминск</a></li>
+						<li><a href="#">Нахабино</a></li>
+						<li><a href="#">Ногинск</a></li>
+						<li><a href="#">Одинцово</a></li>
+						<li><a href="#">Орехово-Зуево</a></li>
+						<li><a href="#">Власиха</a></li>
+						<li><a href="#">Купавна</a></li>
+						<li><a href="#">Павловский Посад</a></li>
+						<li><a href="#">Подольск</a></li>
+						<li><a href="#">Сергиев Посад</a></li>
+						<li><a href="#">Раменское</a></li>
+						<li><a href="#">Реутов</a></li>
+						<li><a href="#">Руза</a></li>
+						<li><a href="#">Серпухов</a></li>
+						<li><a href="#">Солнечногорск</a></li>
+						<li><a href="#">Старая Сходня</a></li>
+						<li><a href="#">Троицк</a></li>
+						<li><a href="#">Фрязино</a></li>
+						<li><a href="#">Химки</a></li>
+						<li><a href="#">Хотьково</a></li>
+						<li><a href="#">Черноголовка</a></li>
+						<li><a href="#">Чехов</a></li>
+						<li><a href="#">Шатура</a></li>
+						<li><a href="#">Электросталь</a></li>
+						<li><a href="#">Электроугли</a></li>
+						<li><a href="#">Юбилейный</a></li>
+						<li><a href="#">Яхрома</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="popup-footer clearfix">
+				<form>
+					<div class="left">
+						<input type="text" class="city-choose" id="city_ch" readonly value="" />
+					</div>
+					<div class="right align-right">
+						<button type="button" class="green-pill close_city">Выбрать</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_2">
+		<div class="popup callback-popup clearfix">
+			<img class="popup_img" src="img/popup_img.png" alt="" />
+			<img  class="discount" src="img/discount_popup.png" alt="" />
+			<button type="button" class="close-popup close-popup_2"></button>
+			<div class="callback-content">
+				<h3>Спешите забронировать</h3>
+				<h4>окна по акции - <span class="shadow">завтра будет дороже</span></h4>
+				<div class="form-3 popup-form">
+					<form>											
+						<h3>Оставьте заявку и наш менеджер рассчитает стоимость окон<br /> <b>по сниженной цене</b></h3>
+						<p class="p-1">Обязательно зафиксируйте сейчас<br /> <b>подарки и выгодную цену!</b></p>
+						<div class="form-fields">
+							<div class="input_wrapp">
+								<input type="text" placeholder="Введите имя">
+							</div>
+							<div class="input_wrapp">
+								<input type="tel" placeholder="Введите номер телефона">
+							</div>
+							<div class="input_wrapp">
+								<a href="#" class="green-pill">Участвовать в акции</a>
+							</div>
+						</div>
+						<div class="form-footer">
+							<p>Нажимая на "Участвовать в акции" вы даете согласие на<br /> <a href="#">обработку своих персональных данных</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_3">
+		<div class="popup callback-popup clearfix">
+			<img class="popup_img_2" src="img/popup_img_02.png" alt="" />
+			<button type="button" class="close-popup close-popup_2"></button>
+			<div class="callback-content">
+				<h3 class="shadow">Узнайте цену по акции</h3>
+				<h4>на двухстворчатое окно ПВХ</h4>
+				<div class="form-3 popup-form">
+					<form>											
+						<h3>Оставьте заявку и наш менеджер рассчитает стоимость окон<br /> <b>по сниженной цене</b></h3>
+						<p class="p-1 medium">Это бесплатно!</p>
+						<div class="form-fields">
+							<div class="input_wrapp">
+								<input type="text" placeholder="Введите имя">
+							</div>
+							<div class="input_wrapp">
+								<input type="tel" placeholder="Введите номер телефона">
+							</div>
+							<div class="input_wrapp">
+								<a href="#" class="green-pill">Участвовать в акции</a>
+							</div>
+						</div>
+						<div class="form-footer">
+							<p>Нажимая на "Участвовать в акции" вы даете согласие на<br /> <a href="#">обработку своих персональных данных</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_4">
+		<div class="popup callback-popup clearfix">
+			<img class="popup_img_3" src="img/popup_img_03.png" alt="" />
+			<button type="button" class="close-popup close-popup_2"></button>
+			<div class="callback-content">
+				<h3 class="shadow">Узнайте цену по акции</h3>
+				<h4>на трехстворчатое окно ПВХ</h4>
+				<div class="form-3 popup-form">
+					<form>											
+						<h3>Оставьте заявку и наш менеджер рассчитает стоимость окон<br /> <b>по сниженной цене</b></h3>
+						<p class="p-1 medium">Это бесплатно!</p>
+						<div class="form-fields">
+							<div class="input_wrapp">
+								<input type="text" placeholder="Введите имя">
+							</div>
+							<div class="input_wrapp">
+								<input type="tel" placeholder="Введите номер телефона">
+							</div>
+							<div class="input_wrapp">
+								<a href="#" class="green-pill">Участвовать в акции</a>
+							</div>
+						</div>
+						<div class="form-footer">
+							<p>Нажимая на "Участвовать в акции" вы даете согласие на<br /> <a href="#">обработку своих персональных данных</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_5">
+		<div class="popup callback-popup clearfix">
+			<img class="popup_img_4" src="img/popup_img_04.png" alt="" />
+			<button type="button" class="close-popup close-popup_2"></button>
+			<div class="callback-content">
+				<h3 class="shadow">Узнайте цену по акции</h3>
+				<h4>на балконный блок ПВХ</h4>
+				<div class="form-3 popup-form">
+					<form>											
+						<h3>Оставьте заявку и наш менеджер рассчитает стоимость окон<br /> <b>по сниженной цене</b></h3>
+						<p class="p-1 medium">Это бесплатно!</p>
+						<div class="form-fields">
+							<div class="input_wrapp">
+								<input type="text" placeholder="Введите имя">
+							</div>
+							<div class="input_wrapp">
+								<input type="tel" placeholder="Введите номер телефона">
+							</div>
+							<div class="input_wrapp">
+								<a href="#" class="green-pill">Участвовать в акции</a>
+							</div>
+						</div>
+						<div class="form-footer">
+							<p>Нажимая на "Участвовать в акции" вы даете согласие на<br /> <a href="#">обработку своих персональных данных</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_6">
+		<div class="popup callback-popup clearfix">
+			<img class="popup_img_5" src="img/popup_img_05.png" alt="" />
+			<button type="button" class="close-popup close-popup_2"></button>
+			<div class="callback-content">
+				<h3>Запишитесь</h3>
+				<h4>на <span class="shadow">бесплатный замер</span> Ваших окон</h4>
+				<div class="form-3 popup-form">
+					<form>											
+						<h3>Оставьте заявку<br /> и наш менеджер подберет<br /> <b>удобное время замера</b> для Вас</h3>
+						<div class="form-fields">
+							<div class="input_wrapp">
+								<input type="text" placeholder="Введите имя">
+							</div>
+							<div class="input_wrapp">
+								<input type="tel" placeholder="Введите номер телефона">
+							</div>
+							<div class="input_wrapp">
+								<a href="#" class="green-pill">Подобрать время замера</a>
+							</div>
+						</div>
+						<div class="form-footer">
+							<p>Нажимая на "Подобрать время замера" вы даете согласие на<br /> <a href="#">обработку своих персональных данных</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="red-box">
+				<p>Сегодня записались на замер: <b>30</b></p>
+				<p>Осталось мест: <b>3</b></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_7">
+		<div class="popup callback-popup clearfix">
+			<img class="popup_img_6" src="img/popup_img_06.png" alt="" />
+			<button type="button" class="close-popup close-popup_2"></button>
+			<div class="callback-content">
+				<h3>Мы Вам перезвоним!</h3>
+				<div class="form-3 popup-form">
+					<form>											
+						<h3>Оставьте заявку и наш менеджер<br /> с радостью ответит на все<br /> Ваши вопросы и подберет окна<br /> <b>по выгодной цене!</b></h3>
+						<div class="form-fields">
+							<div class="input_wrapp">
+								<input type="text" placeholder="Введите имя">
+							</div>
+							<div class="input_wrapp">
+								<input type="tel" placeholder="Введите номер телефона">
+							</div>
+							<div class="input_wrapp">
+								<a href="#" class="green-pill">Перезвоните мне</a>
+							</div>
+						</div>
+						<div class="form-footer">
+							<p>Нажимая на "Перезвоните мне" вы даете согласие на<br /> <a href="#">обработку своих персональных данных</a></p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- /Popups -->
+
+	<!-- Header -->
+		
+	<header>
+		<div class="header-site">
+			<div class="header-row-1">
+				<div class="row clearfix">
+					<div class="col col-1">
+						<a href="#" class="logo">
+							<div class="col col-1">
+								<img src="img/logo.png" alt="" />
+							</div>
+							<div class="col col-2">
+								<p>Пластиковые окна<br /> в розницу<br /> по оптовым ценам</p>
+							</div>
+						</a>
+					</div>
+					<div class="col col-2">
+						<div class="thumb-1">
+							<a href="#" class="inner">
+								<div class="col col-1">
+									<img src="img/calc.png" alt="" />
+								</div>
+								<div class="col col-2">
+									<div>
+										<p class="p-1">Калькулятор</p>
+									</div>
+									<div>
+										<p>Рассчитайте стоимость</p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="thumb-1">
+							<a href="#" class="inner show_popup" data-popup-name="popup_6">
+								<div class="col col-1">
+									<img src="img/ruler.png" alt="" />
+								</div>
+								<div class="col col-2">
+									<div>
+										<p class="p-1">Вызвать замерщика</p>
+									</div>
+									<div>
+										<p>Бесплатно в любое время</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col col-3">
+						<a href="#tel:84951811122" class="tel-link">8 (495) 181 11 22</a><br />
+						<p class="work-time">Ежедневно с 9.00 до 19.00</p>
+						<a href="#" class="orange_link show_popup" data-popup-name="popup_7">Заказать звонок</a>
+					</div>
+					<button class="respmenubtn respbtn_1">	
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+			</div>
+
+			<div class="header-row-2">
+				<div class="row">
+					<div class="main-nav_wrapp">
+						<ul class="main-nav offset-ziro">
+							<li><a href="#">Пластиковые окна</a></li>
+							<li><a href="#">Цены на окна</a></li>
+							<li><a href="#" class="active">Окна в квартиру</a></li>
+							<li><a href="#">Остекление балконов</a></li>
+							<li><a href="#">Отделка балконов</a></li>
+							<li><a href="#">Остекление домов</a></li>
+							<li><a href="#">Двери</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+								
+	</header>
+
+	<!-- /Header -->
+
+		<!-- Content -->
+			<div class="content">
+
+				<!-- Section 1 - main Page 3 -->
+
+				<section class="promo-sect promo-sect_3">
+					
+					<div class="row">
+						<div class="promo-box promo-box_3 clearfix">
+							<div class="left">
+
+								<div class="h1-box h1-box_2">
+									<h1>Остеклите<br /> вашу дачу</h1>							
+								</div>
+
+								<div class="p-box p-box_3">
+									<p>по самой низкой<br /> цене в Москве</p>
+								</div>
+
+								<div class="promo-price_wrapp promo-price_wrapp_3">
+									<p class="promo-price">от <span class="price">1450 </span><i class="rub"></i><span class="m">/м2</span></p>
+								</div>
+
+								<p class="p-2">Теплое и холодное<br /> остекление</p>
+
+								<p class="p-3">для домов, террас, веранд,<br /> беседок и бань</p>
+
+							</div>
+							<div class="right">
+								<div class="promo-img_wrapp promo-img_wrapp_3">
+									<div class="align-right">
+										<img class="promo-img" src="img/dacha.png" alt="" />
+										<p class="promo-p">*Успей купить по выгодной цене!</p>
+									</div>
+								</div>
+								<div class="promo-form promo-form_2">
+									<h2>Оставьте заявку и получите<br /> самую низкую цену</h2>
+									<div class="inputs_wrapp offset-ziro">
+										<div class="input_wrapp">
+											<input type="tel" placeholder="Введите Ваш телефон" />
+										</div>
+										<div class="input_wrapp">
+											<button type="button" class="green-pill">узнать цену</button>
+										</div>
+									</div>
+									<p class="p-2">Менеджер перезвонит вам в течение 5 минут</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="brands offset-ziro">
+						<div class="brand">
+							<img src ="img/brand_01.png" alt="" />
+						</div>
+						<div class="brand">
+							<img src ="img/brand_02.png" alt="" />
+						</div>
+						<div class="brand">
+							<img src ="img/brand_03.png" alt="" />
+						</div>
+						<div class="brand">
+							<img src ="img/brand_10.png" alt="" />
+						</div>
+						<div class="brand">
+							<img src ="img/brand_04.png" alt="" />
+						</div>
+						<div class="brand">
+							<img src ="img/brand_05.png" alt="" />
+						</div>
+						<div class="brand">
+							<img src ="img/brand_06.png" alt="" />
+						</div>
+						<div class="brand">
+							<img src ="img/brand_07.png" alt="" />
+						</div>
+						<div class="brand">
+							<img src ="img/brand_08.png" alt="" />
+						</div>
+						<div class="brand">
+							<img src ="img/brand_09.png" alt="" />
+						</div>
+					</div>
+
+				</section>
+
+				<!-- /Section 1 - main Page 3 -->
+
+				<!-- Section 2 - main Page 3 -->
+
+				<section class="sect-3 sect-3_3 bgjs" data-bg = "img/bg_3.jpg" data-bgresp = "img/bg_3_resp.jpg" data-respbgwidth = "768">
+					
+					<div class="row">
+
+						<h2>Подбрем нужный вариант остелкения</h2>
+						<p class="h2-desc">для Вашего <span class="orange">комфорта и экономии</span></p>
+						
+						<div class="thumbnails-12 offset-ziro">
+
+							<div class="thumb-12">
+								<div class="inner">
+									<div class="price-shape">
+										<p class="price price_2">от <span class="bold">1 950</span> руб/м2</p>
+									</div>
+									<div class="img-box">
+										<img src="" data-src= "img/window_09.jpg" alt="" />
+										<div class="term_wrapp">
+											<div class="col">
+												<p>На улице</p>
+												<p class="p-blue">- 20°C</p>
+											</div>
+											<div class="col">
+												<p>В доме</p>
+												<p class="p-orange">+ 23°C</p>
+											</div>
+										</div>
+									</div>
+									<div class="title_wrapp">
+										<h3>Теплое остекление</h3>
+										<p class="h3-desc">(Rehau, KBE, Montblanc)</p>
+									</div>
+									<div class="descript">
+										<p>Теплые окна защищат ваш дом от<br /> проникновения воров, ветра и холода.</p>
+									</div>
+									<div class="align-center">
+										<a href="#" class="green-pill show_popup" data-popup-name="popup_3">Рассчитать стоимость</a>
+									</div>
+								</div>
+							</div>
+							<div class="thumb-12">
+								<div class="inner">
+									<div class="price-shape">
+										<p class="price price_2">от <span class="bold">1 950</span> руб/м2</p>
+									</div>
+									<div class="img-box">
+										<img src="" data-src= "img/window_10.jpg" alt="" />
+										<div class="term_wrapp">
+											<div class="col">
+												<p>На улице</p>
+												<p class="p-blue">- 20°C</p>
+											</div>
+											<div class="col">
+												<p>В доме</p>
+												<p class="p-orange">+ 23°C</p>
+											</div>
+										</div>
+									</div>
+									<div class="title_wrapp">
+										<h3>Теплое остекление</h3>
+										<p class="h3-desc">(Rehau, KBE, Montblanc)</p>
+									</div>
+									<div class="descript">
+										<p>Теплые окна защищат ваш дом от<br /> проникновения воров, ветра и холода.</p>
+									</div>
+									<div class="align-center">
+										<a href="#" class="green-pill show_popup" data-popup-name="popup_3">Рассчитать стоимость</a>
+									</div>
+								</div>
+							</div>
+							<div class="thumb-12">
+								<div class="inner">
+									<div class="price-shape">
+										<p class="price price_2">от <span class="bold">1 950</span> руб/м2</p>
+									</div>
+									<div class="img-box">
+										<img src="" data-src= "img/window_10.jpg" alt="" />							
+										<div class="term_wrapp">
+											<div class="col">
+												<p>На улице</p>
+												<p class="p-blue">- 20°C</p>
+											</div>
+											<div class="col">
+												<p>В доме</p>
+												<p class="p-orange">+ 23°C</p>
+											</div>
+										</div>
+									</div>
+									<div class="title_wrapp">
+										<h3>Теплое остекление</h3>
+										<p class="h3-desc">(Rehau, KBE, Montblanc)</p>
+									</div>
+									<div class="descript">
+										<p>Теплые окна защищат ваш дом от<br /> проникновения воров, ветра и холода.</p>
+									</div>
+									<div class="align-center">
+										<a href="#" class="green-pill show_popup" data-popup-name="popup_3">Рассчитать стоимость</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 2 - main Page 3 -->
+
+				<!-- Section 3 - main Page 3 -->
+
+				<section>
+
+					<div class="row">
+
+						<h2>Акция на готовые окна ПВХ</h2>
+						<p class="h2-desc">Остеклите Вашу дачу <span class="orange">дешево!</span></p>
+
+						<div class="object-sliders">
+
+							<div class="object-slider_section clearfix">
+								<div class="left">
+									<div class="object-slider_wrapp">
+										<div class="object-slider" data-object-slider = "objsl_1">
+											<div class="slide">
+												<img src="img/objects_slider/slide_03.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_03.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_03.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_03.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_03.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_03.jpg" alt="" />
+											</div>
+										</div>
+									</div>
+									<div class="object-slider_miniatures" data-object-slider = "objsl_1">
+										<div class="slide">
+											<img src="img/objects_slider/slide_06.jpg" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/objects_slider/slide_08.jpg" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/objects_slider/slide_10.jpg" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/objects_slider/slide_12.jpg" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/objects_slider/slide_06.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<div class="right">
+									<h3>Окна для Вашей дачи<br /> со <span class="orange">скидкой</span></h3>
+									<div class="red-discount">
+										<div class="col">
+											<p class="old-price">2630 руб</p>
+											<p><b class="price">1450</b> руб/м2</p>
+										</div>
+										<div class="col">
+											<p>- 45%</p>
+										</div>
+									</div>
+									<p>Количество товара ограничено. Успейте купить готовые окна со склада по сниженой цене! Узнайте о наличии нужного размера у менеджера.</p>
+									<div class="two-cols_2 clearfix">
+										<div class="left">
+											<a href="#" class="green-pill show_popup" data-popup-name="popup_3">Узнать цену по акции</a>
+										</div>
+										<div class="right">
+											<p class="free">Это бесплатно!</p>
+										</div>
+									</div>
+									<div class="overflow_wrapp">
+										<div class="thumbnails-13 offset-ziro">
+											<div class="thumb-13">
+												<div class="icon-box">
+													<i class="icon_01"></i>
+												</div>
+												<p>Надежная защит<br /> от взлома</p>
+											</div>
+											<div class="thumb-13">
+												<div class="icon-box">
+													<i class="icon_02"></i>
+												</div>
+												<p>Высокая<br /> теплоизоляция</p>
+											</div>
+											<div class="thumb-13">
+												<div class="icon-box">
+													<i class="icon_03"></i>
+												</div>
+												<p>Выгодная<br /> цена</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="object-slider_section clearfix">
+								<div class="left">
+									<div class="object-slider_wrapp">
+										<div class="object-slider" data-object-slider = "objsl_2">
+											<div class="slide">
+												<img src="img/objects_slider/slide_17.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_17.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_17.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_17.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_17.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_17.jpg" alt="" />
+											</div>
+										</div>
+									</div>
+									<div class="object-slider_miniatures" data-object-slider = "objsl_2">
+										<div class="slide">
+											<img src="img/objects_slider/slide_19.jpg" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/objects_slider/slide_21.jpg" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/objects_slider/slide_23.jpg" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/objects_slider/slide_25.jpg" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/objects_slider/slide_23.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<div class="right">
+									<h3>Окна для террас и веранд<br /> со <span class="orange">скидкой</span></h3>
+									<div class="red-discount">
+										<div class="col">
+											<p class="old-price">2630 руб</p>
+											<p><b class="price">1450</b> руб/м2</p>
+										</div>
+										<div class="col">
+											<p>- 45%</p>
+										</div>
+									</div>
+									<p>Количество товара ограничено. Успейте купить готовые окна со склада по сниженой цене! Узнайте о наличии нужного размера у менеджера.</p>
+									<div class="two-cols_2 clearfix">
+										<div class="left">
+											<a href="#" class="green-pill show_popup" data-popup-name="popup_3">Узнать цену по акции</a>
+										</div>
+										<div class="right">
+											<p class="free">Это бесплатно!</p>
+										</div>
+									</div>
+									<div class="overflow_wrapp">
+										<div class="thumbnails-13 offset-ziro">
+											<div class="thumb-13">
+												<div class="icon-box">
+													<i class="icon_04"></i>
+												</div>
+												<p>Надежная защит<br /> и осадков</p>
+											</div>
+											<div class="thumb-13">
+												<div class="icon-box">
+													<i class="icon_03"></i>
+												</div>
+												<p>Экономия<br /> бюджета</p>
+											</div>
+											<div class="thumb-13">
+												<div class="icon-box">
+													<i class="icon_05"></i>
+												</div>
+												<p>Функциональный<br /> дизайн</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="object-slider_section clearfix">
+								<div class="left">
+									<div class="object-slider_wrapp">
+										<div class="object-slider" data-object-slider = "objsl_3">
+											<div class="slide">
+												<img src="img/objects_slider/slide_30.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_30.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_30.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_30.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_30.jpg" alt="" />
+											</div>
+											<div class="slide">
+												<img src="img/objects_slider/slide_30.jpg" alt="" />
+											</div>
+										</div>
+									</div>
+									<div class="object-slider_miniatures" data-object-slider = "objsl_3">
+										<div class="slide">
+											<img src="img/objects_slider/slide_32.jpg" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/objects_slider/slide_34.jpg" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/objects_slider/slide_36.jpg" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/objects_slider/slide_38.jpg" alt="" />
+										</div>
+										<div class="slide">
+											<img src="img/objects_slider/slide_34.jpg" alt="" />
+										</div>
+									</div>
+								</div>
+								<div class="right">
+									<h3>Окна для беседок и бань<br /> со <span class="orange">скидкой</span></h3>
+									<div class="red-discount">
+										<div class="col">
+											<p class="old-price">2630 руб</p>
+											<p><b class="price">1450</b> руб/м2</p>
+										</div>
+										<div class="col">
+											<p>- 45%</p>
+										</div>
+									</div>
+									<p>Количество товара ограничено. Успейте купить готовые окна со склада по сниженой цене! Узнайте о наличии нужного размера у менеджера.</p>
+									<div class="two-cols_2 clearfix">
+										<div class="left">
+											<a href="#" class="green-pill show_popup" data-popup-name="popup_3">Узнать цену по акции</a>
+										</div>
+										<div class="right">
+											<p class="free">Это бесплатно!</p>
+										</div>
+									</div>
+									<div class="overflow_wrapp">
+										<div class="thumbnails-13 offset-ziro">
+											<div class="thumb-13">
+												<div class="icon-box">
+													<i class="icon_04"></i>
+												</div>
+												<p>Надежная защит<br /> и осадков</p>
+											</div>
+											<div class="thumb-13">
+												<div class="icon-box">
+													<i class="icon_03"></i>
+												</div>
+												<p>Экономия<br /> бюджета</p>
+											</div>
+											<div class="thumb-13">
+												<div class="icon-box">
+													<i class="icon_05"></i>
+												</div>
+												<p>Функциональный<br /> дизайн</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						
+					</div>
+
+				</section>
+
+				<!-- /Section 3 - main Page 3 -->
+
+				<!-- Section 3 - Main Page 2 -->
+
+				<section class="sect_3_2 sect-orange">
+					<img class="bg_img" src="img/bg_12.png" alt="" />
+					<div class="row">
+
+						<div class="article_6 clearfix">
+							<div class="left">
+								<div class="photo-box">
+									<img src="img/pensionaires.jpg" alt="" />
+								</div>
+							</div>
+							<div class="right">
+								<div class="article_6_desc">
+									<h2 class="shadow">Вы пенсионер?</h2>
+									<p class="p-1">Мы подготовили для вас специальные условия при заказе остекления балкона!</p>
+									<p >Узнайте условия акции у вашего менеджера</p>
+									<div class="form-4_wrapp clearfix">
+										<div class="inputs_wrapp offset-ziro">
+											<div class="input_wrapp">
+												<input type="tel" name="" placeholder="Введите номер телефона">
+											</div>
+											<div class="input_wrapp">
+												<button type="button" class="green-pill">Узнать условия</button>
+											</div>
+										</div>
+										<div class="form-footer">
+											<p>Нажимая на "Узнать условия” вы даете согласие на <a href="#">обработку своих персональных данных</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 3 - Main Page 2 -->
+
+				<!-- Section 8 - main Page -->
+
+				<section class="sect-8_2 bgjs" data-bg = "img/bg_7.jpg" data-bgresp = "img/bg_7_resp.jpg" data-respbgwidth = "768">
+					
+					<div class="row">
+						<h2>Выполним окна в любых формах и размерах</h2>
+
+						<div class="overflow_wrapp">
+							<div class="thumbnails-5 offset-ziro">
+								<div class="thumb-5">
+									<div class="inner">
+										<div class="img-box">
+											<img src="" data-src="img/window_01.png" alt="" />
+										</div>
+										<p>Арочные</p>
+										<p class="bold">от 1 900 руб.м</p>
+									</div>
+								</div>
+								<div class="thumb-5">
+									<div class="inner">
+										<div class="img-box">
+											<img src="" data-src="img/window_02.png" alt="" />
+										</div>
+										<p>Круглые</p>
+										<p class="bold">от 1 900 руб.м</p>
+									</div>
+								</div>
+								<div class="thumb-5">
+									<div class="inner">
+										<div class="img-box">
+											<img src="" data-src="img/window_03.png" alt="" />
+										</div>
+										<p>Закругленные</p>
+										<p class="bold">от 1 900 руб.м</p>
+									</div>
+								</div>
+								<div class="thumb-5">
+									<div class="inner">
+										<div class="img-box">
+											<img src="" data-src="img/window_04.png" alt="" />
+										</div>
+										<p>Восьмиугольные</p>
+										<p class="bold">от 1 900 руб.м</p>
+									</div>
+								</div>
+								<div class="thumb-5">
+									<div class="inner">
+										<div class="img-box">
+											<img src="" data-src="img/window_05.png" alt="" />
+										</div>
+										<p>Трапецевидные</p>
+										<p class="bold">от 1 900 руб.м</p>
+									</div>
+								</div>
+								<div class="thumb-5">
+									<div class="inner">
+										<div class="img-box">
+											<img src="" data-src="img/window_06.png" alt="" />
+										</div>
+										<p>Треугольные</p>
+										<p class="bold">от 1 900 руб.м</p>
+									</div>
+								</div>
+								<div class="thumb-5">
+									<div class="inner">
+										<div class="img-box">
+											<img src="" data-src="img/window_07.png" alt="" />
+										</div>
+										<p>Арочные</p>
+										<p class="bold">от 1 900 руб.м</p>
+									</div>
+								</div>
+								<div class="thumb-5">
+									<div class="inner">
+										<div class="img-box">
+											<img src="" data-src="img/window_08.png" alt="" />
+										</div>
+										<p>Полукруглые</p>
+										<p class="bold">от 1 900 руб.м</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-2_wrapp">
+							<h2>Изготовим окна по Вашим эскизам</h2>
+							<p class="h2-desc">Прикрепите фото Вашего эскиза  и мы рассчитаем стоимость прямо сейчас!</p>
+
+							<div class="form-2">
+								<form>
+									<div class="three-cols three-cols_2 clearfix">
+										<div class="left left_1">
+											<div class="upload">
+												<input type="file" id="file_1">
+												<label for=file_1><i class="file-icon"></i> <span>Прикрепить эксиз</span></label>
+											</div>
+										</div>
+										<div class="left">
+											<div class="input_wrapp">
+												<input type="tel" placeholder="Ваш телефон" />
+											</div>
+										</div>
+										<div class="left">
+											<button type="submit" class="green-pill">Узнать стоимость</button>
+										</div>
+									</div>
+									<div class="form-footer form-footer_2">
+										<p>Нажимая на "Узнать стоимость" вы даете согласие на <a href="#">обработку своих персональных данных</a></p>
+									</div>
+								</form>								
+							</div>
+							<p class="p-desc">Если у вас нет эскиза, то оставьте ваш номер и менеджер перезвонит вам для уточнения размеров</p>
+
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 8 - main Page -->
+
+				<!-- Section 4 - main Page 3 -->
+
+				<section class="sect-4_3">
+					
+					<div class="row">
+						
+						<h2>Цены на окна стандартных размеров</h2>
+						<p class="h2-desc">Оставьте заявку и получите дополнительную скидку!</p>
+
+						<div class="switch_wrapp">
+							<ul class="switch">
+								<li><a href="#" class="active">теплое</a></li>
+								<li><a href="#">холодное</a></li>
+							</ul>
+						</div>
+
+						<div class="overflow_wrapp">
+							<div class="thumbnails-14 offset-ziro">
+								<div class="thumb-14">
+									<div class="img-box">
+										<img src="img/window_11.jpg" alt="" />
+									</div>
+									<div class="descript">
+										<h3>Окно с 1 створкой</h3>
+										<p>Окно с 1 створкой</p>
+										<p class="p-1">Стоимость: <span class="old-price">7500 руб</span></p>
+										<p class="p-2">5000 руб. <a href="#" class="orange_link">Получить скидку</a></p>
+									</div>
+								</div>
+								<div class="thumb-14">
+									<div class="img-box">
+										<img src="img/window_12.jpg" alt="" />
+									</div>
+									<div class="descript">
+										<h3>Окно с 1 створкой</h3>
+										<p>Окно с 1 створкой</p>
+										<p class="p-1">Стоимость: <span class="old-price">7500 руб</span></p>
+										<p class="p-2">5000 руб. <a href="#" class="orange_link">Получить скидку</a></p>
+									</div>
+								</div>
+								<div class="thumb-14">
+									<div class="img-box">
+										<img src="img/window_13.jpg" alt="" />
+									</div>
+									<div class="descript">
+										<h3>Окно с 1 створкой</h3>
+										<p>Окно с 1 створкой</p>
+										<p class="p-1">Стоимость: <span class="old-price">7500 руб</span></p>
+										<p class="p-2">5000 руб. <a href="#" class="orange_link">Получить скидку</a></p>
+									</div>
+								</div>
+								<div class="thumb-14">
+									<div class="img-box">
+										<img src="img/window_11.jpg" alt="" />
+									</div>
+									<div class="descript">
+										<h3>Окно с 1 створкой</h3>
+										<p>Окно с 1 створкой</p>
+										<p class="p-1">Стоимость: <span class="old-price">7500 руб</span></p>
+										<p class="p-2">5000 руб. <a href="#" class="orange_link">Получить скидку</a></p>
+									</div>
+								</div>
+								<div class="thumb-14">
+									<div class="img-box">
+										<img src="img/window_12.jpg" alt="" />
+									</div>
+									<div class="descript">
+										<h3>Окно с 1 створкой</h3>
+										<p>Окно с 1 створкой</p>
+										<p class="p-1">Стоимость: <span class="old-price">7500 руб</span></p>
+										<p class="p-2">5000 руб. <a href="#" class="orange_link">Получить скидку</a></p>
+									</div>
+								</div>
+								<div class="thumb-14">
+									<div class="img-box">
+										<img src="img/window_13.jpg" alt="" />
+									</div>
+									<div class="descript">
+										<h3>Окно с 1 створкой</h3>
+										<p>Окно с 1 створкой</p>
+										<p class="p-1">Стоимость: <span class="old-price">7500 руб</span></p>
+										<p class="p-2">5000 руб. <a href="#" class="orange_link">Получить скидку</a></p>
+									</div>
+								</div>
+								<div class="thumb-14">
+									<div class="img-box">
+										<img src="img/window_11.jpg" alt="" />
+									</div>
+									<div class="descript">
+										<h3>Окно с 1 створкой</h3>
+										<p>Окно с 1 створкой</p>
+										<p class="p-1">Стоимость: <span class="old-price">7500 руб</span></p>
+										<p class="p-2">5000 руб. <a href="#" class="orange_link">Получить скидку</a></p>
+									</div>
+								</div>
+								<div class="thumb-14">
+									<div class="img-box">
+										<img src="img/window_12.jpg" alt="" />
+									</div>
+									<div class="descript">
+										<h3>Окно с 1 створкой</h3>
+										<p>Окно с 1 створкой</p>
+										<p class="p-1">Стоимость: <span class="old-price">7500 руб</span></p>
+										<p class="p-2">5000 руб. <a href="#" class="orange_link">Получить скидку</a></p>
+									</div>
+								</div>
+								<div class="thumb-14">
+									<div class="img-box">
+										<img src="img/window_13.jpg" alt="" />
+									</div>
+									<div class="descript">
+										<h3>Окно с 1 створкой</h3>
+										<p>Окно с 1 створкой</p>
+										<p class="p-1">Стоимость: <span class="old-price">7500 руб</span></p>
+										<p class="p-2">5000 руб. <a href="#" class="orange_link">Получить скидку</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 4 - main Page 3 -->
+
+				<!-- Section 5 - Main Page 3 -->
+
+				<section class="sect_3_2 sect-orange">
+					<img class="bg_img" src="img/bg_13.png" alt="" />
+					<div class="row">
+
+						<div class="article_7 clearfix">
+							<div class="left">
+								<div class="photo-box">
+									<img src="img/catalog.png" alt="" />
+								</div>
+							</div>
+							<div class="right">
+								<div class="article_7_desc">
+									<h2 class="shadow">Получите полный<br /> прайс-лист окон<br /> на Вашу почту</h2>
+									<p>с самыми низкими ценами в Москве</p>
+									<div class="form-4_wrapp clearfix">
+										<div class="three-cols three-cols_3 clearfix">
+											<div class="left">
+												<div class="input_wrapp">
+													<input type="text" name="" placeholder="Введите ваше имя">
+												</div>
+											</div>
+											<div class="left">
+												<div class="input_wrapp">
+													<input type="email" placeholder="Введите ваш email">
+												</div>
+											</div>
+											<div class="left">
+												<div class="input_wrapp">
+													<button type="button" class="green-pill">Получить</button>
+												</div>
+											</div>
+										</div>
+										<div class="form-footer form-footer_3">
+											<p>Нажимая на "Получить прайс-лист" вы даете согласие на <a href="#">обработку своих персональных данных</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 5 - Main Page 3 -->
+
+				<!-- Section 4 - Main Page 2 -->
+
+				<section class="sect-4-2">
+
+					<div class="row">
+
+						<h2>Дарим скидки нашим покупателям!</h2>
+						<p class="h2-desc">Закажите дополнительные элементы <span class="orange">по выгодной цене</span></p>
+
+						<div class="thumbnails-9 offset-ziro">
+							<a href="#" class="thumb-9">
+								<div class="img-box">
+									<img src="img/share_02.png" alt="" />
+								</div>
+								<div class="p-1_wrapp">
+									<p class="p-1">Подоконник</p>
+								</div>
+								<div>
+									<p class="old-price">1500 руб/м2</p>
+								</div>
+								<div>
+									<p class="price">1300 руб/м2</p>
+								</div>
+							</a>
+							<a href="#" class="thumb-9">
+								<div class="img-box">
+									<img src="img/share_03.png" alt="" />
+								</div>
+								<div class="p-1_wrapp">
+									<p class="p-1">Москитная сетка</p>
+								</div>
+								<div>
+									<p class="old-price">1500 руб/м2</p>
+								</div>
+								<div>
+									<p class="price">1300 руб/м2</p>
+								</div>
+							</a>
+							<a href="#" class="thumb-9">
+								<div class="img-box">
+									<img src="img/share_04.png" alt="" />
+								</div>
+								<div class="p-1_wrapp">
+									<p class="p-1">Детский замок</p>
+								</div>
+								<div>
+									<p class="old-price">1500 руб/м2</p>
+								</div>
+								<div>
+									<p class="price">1300 руб/м2</p>
+								</div>
+							</a>
+							<a href="#" class="thumb-9">
+								<div class="img-box">
+									<img src="img/share_05.png" alt="" />
+								</div>
+								<div class="p-1_wrapp">
+									<p class="p-1">Воздушный клапан</p>
+								</div>
+								<div>
+									<p class="old-price">1500 руб/м2</p>
+								</div>
+								<div>
+									<p class="price">1300 руб/м2</p>
+								</div>
+							</a>
+							<a href="#" class="thumb-9">
+								<div class="img-box">
+									<img src="img/share_01.png" alt="" />
+								</div>
+								<div class="p-1_wrapp">
+									<p class="p-1">Отлив</p>
+								</div>
+								<div>
+									<p class="old-price">1500 руб/м2</p>
+								</div>
+								<div>
+									<p class="price">1300 руб/м2</p>
+								</div>
+							</a>
+							<a href="#" class="thumb-9">
+								<div class="img-box">
+									<img src="img/share_06.png" alt="" />
+								</div>
+								<div class="p-1_wrapp">
+									<p class="p-1">Энергосберегающее покрытие</p>
+								</div>
+								<div>
+									<p class="old-price">1500 руб/м2</p>
+								</div>
+								<div>
+									<p class="price">1300 руб/м2</p>
+								</div>
+							</a>
+							<a href="#" class="thumb-9">
+								<div class="img-box">
+									<img src="img/share_07.png" alt="" />
+								</div>
+								<div class="p-1_wrapp">
+									<p class="p-1">Гребенки-ограничитель</p>
+								</div>
+								<div>
+									<p class="old-price">1500 руб/м2</p>
+								</div>
+								<div>
+									<p class="price">1300 руб/м2</p>
+								</div>
+							</a>
+							<a href="#" class="thumb-9">
+								<div class="img-box">
+									<img src="img/share_08.png" alt="" />
+								</div>
+								<div class="p-1_wrapp">
+									<p class="p-1">Декоративная раскладка</p>
+								</div>
+								<div>
+									<p class="old-price">1500 руб/м2</p>
+								</div>
+								<div>
+									<p class="price">1300 руб/м2</p>
+								</div>
+							</a>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 4 - Main Page 2 -->
+
+				<!-- Section 11 - main Page -->
+
+				<section class="sect-11 grey-bg">
+					
+					<div class="row">
+
+						<h2>Выполнили более <span class="orange">10&nbsp;000 заказов и 500 проектов</span></h2>
+						<p class="h2-desc">Оформим ваш заказ за 15 минут и привезем готовые окна уже через 4 дня!</p>
+
+						<div class="overflow_wrapp">
+							<div class="thumbnails-7 offset-ziro">
+								<div class="thumb-7">
+									<a href="img/th_7__01.jpg" class="img-box" data-fancybox = 1>
+										<img src="" data-src="img/th_7__01.jpg" alt="" />
+									</a>
+								</div>
+								<div class="thumb-7">
+									<a href="img/th_7__02.jpg" class="img-box" data-fancybox = 1>
+										<img src="" data-src="img/th_7__02.jpg" alt="" />
+									</a>
+								</div>
+								<div class="thumb-7">
+									<a href="img/th_7__03.jpg" class="img-box" data-fancybox = 1>
+										<img src="" data-src="img/th_7__03.jpg" alt="" />
+									</a>
+								</div>
+								<div class="thumb-7">
+									<a href="img/th_7__04.jpg" class="img-box" data-fancybox = 1>
+										<img src="" data-src="img/th_7__04.jpg" alt="" />
+									</a>
+								</div>
+								<div class="thumb-7">
+									<a href="img/th_7__05.jpg" class="img-box" data-fancybox = 1>
+										<img src="" data-src="img/th_7__05.jpg" alt="" />
+									</a>
+								</div>
+								<div class="thumb-7">
+									<a href="img/th_7__06.jpg" class="img-box" data-fancybox = 1>
+										<img src="" data-src="img/th_7__06.jpg" alt="" />
+									</a>
+								</div>
+								<div class="thumb-7">
+									<a href="img/th_7__07.jpg" class="img-box" data-fancybox = 1>
+										<img src="" data-src="img/th_7__07.jpg" alt="" />
+									</a>
+								</div>
+								<div class="thumb-7">
+									<a href="img/th_7__08.jpg" class="img-box" data-fancybox = 1>
+										<img src="" data-src="img/th_7__08.jpg" alt="" />
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 11 - main Page -->
+
+				<!-- Section 12 - main Page -->
+
+				<section class="sect-12">
+					
+					<div class="row">
+
+						<h2>Узнайте мнение покупателей</h2>
+
+						<div class="testimonial clearfix">
+							<div class="left">
+								<div class="img-box">
+									<img src="img/testimonial_01.jpg" alt="" />
+								</div>
+								<div class="img-box">
+									<img src="img/testimonial_02.jpg" alt="" />
+								</div>
+							</div>
+							<div class="right">
+								<h3><i class="quotes"></i>Самая низкая цена была у компании Доп Сити, честно, не поверила, но пригласила на замер</h3>
+								<div class="testimonial-desc">
+									<p>Хочу поблагодарить весь персонал фирмы Доп-Сити. Номер договора 200714-6 на сумму 60500 руб. Обзванивая большое количество фирм по изготовлению и монтажу пластиковых окон, ужаснулась разбросом цен! За мою 3 комнатную квартиру объявляли цены от 65000 руб,до 100000 руб, а одна вообще назвала 125000 руб ( и самое интересное, что у всех все одно и тоже).</p>
+									<p>Самая низкая цена была у компании Доп Сити, честно, не поверила, но пригласила на замер. До этого было 3 замерщика из разных компаний, когда звонишь им на фирму и диктуешь уже точные размеры окон они специально занижают цены, а когда приезжает замерщик цены улетают чуть ли не в два раза дороже. Так вот от компании Доп-Сити приехал замерщик Руслан ( очень грамотный молодой человек) порекомендовал какие окна лучше поставить и как правильно распределить открывающие части окна. Начали считать заказ думала сейчас объявит цену как всегда дороже нежели по телефону. А нет 60500 руб. Сразу заключила договор.</p>
+									<p>Окна привезли через 7 дней и уже на следующий день приехали рабочие ставить окна. Качеством работ я осталась довольна, огромное спасибо монтажнику по имени Стас все сделал аккуратно и быстро, даже мусор за собой убрал. Советую всем, заказывайте пластиковые окна у производителей, а не у посредников! У производителей цены намного ниже чем у перекупщиков в моем случае почти на 20 % я очень рада, что нашла данную компанию. Надеюсь мой отзыв будет полезен всем кто выбирает пластиковые окна.</p>
+								</div>
+								<p class="name"><i class="user"></i>Инна Анатольевна, город Москва</p>
+							</div>
+						</div>
+						<div class="more-testimonilas">
+							<a href="#" class="green-pill">Посмотреть ещё отзывы</a>
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 12 - main Page -->
+
+				<!-- Section 14 - main Page -->
+
+				<section class="sect-14">
+					
+					<div class="row">
+
+						<div class="article_4 offset-ziro">
+							
+							<div class="left-col">
+								<h2>Сделаем бесплатный расчет и подбор окон для Вашего дома</h2>
+								<h3>Оставьте заявку и получите:</h3>
+								<ol class="list-2">
+									<li>Подбор подходящего оконного профиля</li>
+									<li>Расчет стоимости окна, дополнительных 
+									элементов и монтажа</li>
+									<li>Согласование времени бесплатного 
+									выезда замерщика</li>
+								</ol>
+							</div>
+
+							<div class="right-col">
+								<div class="form-3_wrapp clearfix">
+									<img class="left-img" src="" data-src="img/human.png" alt="" />
+									<img class="hand" src="" data-src="img/hand.png" alt="" />
+									<div class="form-3">
+										<form>											
+											<h3>Получите бесплатный расчет</h3>
+											<p>стоимости Ваших окон за 3 минуты</p>
+											<div class="form-fields">
+												<div class="input_wrapp">
+													<input type="text" placeholder="Введите имя" />
+												</div>
+												<div class="input_wrapp">
+													<input type="tel" placeholder="Введите номер телефона" />
+												</div>
+												<div class="input_wrapp">
+													<a href="#" class="green-pill">Получить расчет</a>
+												</div>
+											</div>
+											<div class="form-footer">
+												<p>Нажимая на "Получить расчет" вы даете согласие на <a href="#">обработку своих персональных данных</a></p>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 14 - main Page -->
+
+				<!-- Section 15 - main Page -->
+
+				<section class="contacts-sect">
+
+					<div class="row">
+
+						<div class="contacts_wrapp">
+							<div class="contacts">								
+								<h3>Наши контакты</h3>
+								<div class="inner">
+									<div>
+										<p><b>Адрес:</b> г. Москва<br /> ул. Водников д.2</p>
+										<p><b>Телефон:</b><br /> <a href="tel:84951811122">8 (495) 181 11 22</a></p>
+									</div>
+									<p><a href="#" class="orange_link show_popup" data-popup-name="popup_7">Заказать звонок</a></p>
+									<div>
+										<p><b>Пишите нам на e-mail:</b><br /> <a class="orange_link" href="mailto:okna@dop-city.ru">okna@dop-city.ru</a></p>
+										<p><b>Время работы:</b><br /> Ежедневно с 9.00 до 19.00</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div id="map"></div>
+
+				</section>
+
+				<!-- /Section 15 - main Page -->
+
+
+			</div>
+		<!-- /Content -->
+
+		<!-- Footer -->
+
+		<footer>
+
+			<div class="footer">
+				<div class="row row-1 clearfix">
+					<div class="left">
+						<a href="#" class="logo">
+							<div class="col col-1">
+								<img src="img/logo.png" alt="" />
+							</div>
+							<div class="col col-2">
+								<p>Пластиковые окна<br /> в розницу<br /> по оптовым ценам</p>
+							</div>
+						</a>
+					</div>
+					<div class="right">
+						<div class="footer-nav offset-ziro">
+							<div class="cell">
+								<p>
+									<a href="#">Пластиковые окна</a>
+								</p>
+								<p>
+									<a href="#">Окна в квартиру</a>
+								</p>
+							</div>
+							<div class="cell">
+								<p>
+									<a href="#">Отделка балконов</a>
+								</p>
+								<p>
+									<a href="#">Двери</a>
+								</p>
+							</div>
+							<div class="cell">
+								<p>
+									<a href="#">Цены на окна</a>
+								</p>
+								<p>
+									<a href="#">Остекление балконов</a>
+								</p>
+							</div>
+							<div class="cell">
+								<p>
+									<a href="#">Остекление домов</a>
+								</p>
+								<p>
+									<a href="#">Контакты</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row-2">
+					<div class="row clearfix">
+						<div class="left">
+							<a class="grey-line_link" href="#">Политика конфиденциальности</a>
+						</div>
+						<div class="right">
+							<p class="webstudio-p"><span>Разработка&nbsp;&nbsp;– </span> <a href="http://reforge.ru/" class="reforge"></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+
+		<!-- /Footer -->
+
+		<script src="js/scripts.js"></script>
+		<script src="js/additional_scripts.js"></script>
+		<script src="js/map.js"></script>
+	
+	</div>
+
+</body>
+</html>

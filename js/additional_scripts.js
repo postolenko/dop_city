@@ -1,3 +1,7 @@
+var sliderName;
+var objSlider;
+var objMiniaturesSlider;
+
 $(window).on("load",function(){
 
 	$(".scroll").mCustomScrollbar();
@@ -107,6 +111,62 @@ $(document).ready(function() {
 		});
 
 	}
+
+	$( ".object-slider" ).each(function() {
+
+		sliderName = $(this).attr("data-object-slider");
+
+		objSlider = $(".object-slider[data-object-slider = '"+ sliderName +"']");
+		objMiniaturesSlider = $(".object-slider_miniatures[data-object-slider = '"+ sliderName +"']");
+
+		objSlider.not(".slick-initialized").slick({
+	        dots: false,
+	        arrows: false,
+	        autoplay: true,
+	        autoplaySpeed: 10000,
+	        speed: 1200,
+	        fade: true,
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	        asNavFor: objMiniaturesSlider
+	    });
+
+	    objMiniaturesSlider.not(".slick-initialized").slick({
+	        dots: false,
+	        arrows: false,
+	        autoplay: true,
+	        autoplaySpeed: 10000,
+	        speed: 1200,
+	        slidesToShow: 4,
+	        slidesToScroll: 1,
+	    	focusOnSelect: true,
+	    	asNavFor: objSlider,
+	        responsive: [
+	        {
+	          breakpoint: 1200,
+	          settings: {
+	            slidesToShow: 3,
+	            slidesToScroll: 3,
+	          }
+	        },
+	        {
+	          breakpoint: 950,
+	          settings: {
+	            slidesToShow: 2,
+	            slidesToScroll: 2
+	          }
+	        },
+	        {
+	          breakpoint: 550,
+	          settings: {
+	            slidesToShow: 1,
+	            slidesToScroll: 1
+	          }
+	        }
+	      ]
+	    });
+
+	});
 
 
 });

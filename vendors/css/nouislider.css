@@ -397,9 +397,9 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     top: 3px;
 }
 
-.noUi-horizontal {
+/*.noUi-horizontal {
     height: 3px;
-}
+}*/
 
 .noUi-target {
     background: #d0d0d0;
