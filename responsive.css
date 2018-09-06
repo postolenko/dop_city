@@ -237,6 +237,22 @@
 
 	/*-- .Section 1 - Calc Page --*/
 
+	/*-- Section 2 - main Page 3 --*/
+
+	.thumb-12 {
+	    width: 50%;
+	}
+
+	/*-- /Section 2 - main Page 3 --*/
+
+	/*-- Section 3 - main Page 3 --*/
+
+	.thumb-14 {
+	    min-width: 311px;
+	}
+
+	/*-- /Section 3 - main Page 3 --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -813,6 +829,32 @@
 
 	/*-- /Section 1 - Calc Page --*/
 
+	/*-- Section 3 - main Page 3 --*/
+
+	.object-slider_section .left {
+	    width: 100%;
+	    float: none;
+	    padding: 10px 0;
+	}
+
+	.object-slider_section .right {
+	    width: 100%;
+	    float: none;
+	    padding: 10px 0;
+	}
+
+	/*-- /Section 3 - main Page 3 --*/
+
+	.article_7 > .left {
+		display: none;
+	}
+
+	.article_7 > .right {
+	    width: 100%;
+	    float: none;
+	    padding: 20px 0;
+	}
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -1246,6 +1288,71 @@
 
 	/*-- /Section 2 - Calc Page --*/
 
+	/*-- Section 1 - main Page 3 --*/
+
+	.h1-box_2 h1 {
+	    font-size: 45px;
+	    line-height: 47px;
+	}
+
+	.p-box_3 p {
+	    font-size: 29px;
+	    line-height: 32px;
+	}
+
+	.promo-price_wrapp p.promo-price {
+	    font-size: 42px;
+	    line-height: 44px;
+	}
+
+	.promo-price_wrapp_3 .promo-price .price {
+		margin: 0;
+	    font-size: 56px;
+	    line-height: 66px;
+	}
+
+	.promo-price .m {
+	    font-size: 41px;
+	    line-height: 50px;
+	}
+
+	.promo-box_3 .p-2 {
+	    padding: 0;
+	    font-size: 28px;
+	    line-height: 31px;
+	}
+
+	.promo-box_3 .p-3 {
+	    padding: 3px 0;
+	    font-size: 20px;
+	    line-height: 31px;
+	}
+
+	.promo-form .p-2 {
+	    font-size: 13px;
+	    line-height: 15px;
+	}
+
+	/*-- /Section 1 - main Page 3 --*/
+
+	/*-- Section 3 - main Page 3 --*/
+
+	.object-slider .slide {
+	    height: 290px;
+	}
+
+	/*-- /Section 3 - main Page 3 --*/
+
+	/*-- Section 5 - main Page 3 --*/
+
+	.three-cols_3 .left {
+		width: 100%;
+		float: none;
+		margin: 10px 0;
+	}
+
+	/*-- /Section 5 - main Page 3 --*/
+
 	/*-- Footer --*/
 
 	.footer .row-1 .left {
@@ -1339,6 +1446,26 @@
 	}
 
 	/*-- /Section 2 - Calc Page --*/
+
+	/*-- Section 2 - main Page 3 --*/
+
+	.thumbnails-12 {
+	    margin: 5px 0;
+	}
+
+	.thumb-12 {
+	    width: 100%;
+	}
+
+	/*-- /Section 2 - main Page 3 --*/
+
+	/*-- Section 3 - main Page 3 --*/
+
+	.thumb-14 {
+	    min-width: 400px;
+	}
+
+	/*-- /Section 3 - main Page 3 --*/
 
 	/*-- Popups --*/
 
@@ -1901,6 +2028,59 @@
 	}
 
 	/*-- /Section 2 - Calc Page --*/
+
+	/*-- Section 3 - Calc Page --*/
+
+	.object-slider_section h3 {
+	    font-size: 21px;
+	    line-height: 25px;
+	}
+
+	.red-discount {
+	    margin: 17px 0 17px 21px;
+	}
+
+	.thumb-13 {
+	    width: 50%;
+	}
+
+	/*-- /Section 3 - Calc Page --*/
+
+	/*-- Section 1 - main Page 3 --*/
+
+	.promo-sect_3 .promo-price_wrapp p.promo-price {
+	    font-size: 29px;
+	    line-height: 33px;
+	}
+
+	.promo-price_wrapp_3 .promo-price .price {
+	    font-size: 40px;
+	    line-height: 43px;
+	}
+
+	.promo-price_wrapp_3 .promo-price .rub {
+		width: 27px;
+	    height: 28px;
+	}
+
+	.promo-price_wrapp_3 .promo-price .m {
+	    font-size: 30px;
+	    line-height: 33px;
+	}
+
+	/*-- /Section 1 - main Page 3 --*/
+
+	/*-- Section 3 - main Page 3 --*/
+
+	.thumb-14 {
+	    min-width: 100%;
+	}
+
+	.thumb-14 .img-box {
+	    height: auto;
+	}
+
+	/*-- /Section 3 - main Page 3 --*/
 
 	/*-- Popups --*/
 

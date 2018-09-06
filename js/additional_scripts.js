@@ -150,16 +150,23 @@ $(document).ready(function() {
 	          }
 	        },
 	        {
-	          breakpoint: 950,
+	          breakpoint: 900,
 	          settings: {
-	            slidesToShow: 2,
+	            slidesToShow: 4,
 	            slidesToScroll: 2
 	          }
 	        },
 	        {
-	          breakpoint: 550,
+	          breakpoint: 600,
 	          settings: {
-	            slidesToShow: 1,
+	            slidesToShow: 3,
+	            slidesToScroll: 1
+	          }
+	        },
+	        {
+	          breakpoint: 480,
+	          settings: {
+	            slidesToShow: 2,
 	            slidesToScroll: 1
 	          }
 	        }
