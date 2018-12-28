@@ -253,6 +253,34 @@
 
 	/*-- /Section 3 - main Page 3 --*/
 
+	/*-- Section 2 - main Page 4 --*/
+
+	.thumb-13_2 {
+	    width: calc(50% - 20px);
+	}
+
+	/*-- /Section 2 - main Page 4 --*/
+
+	/*-- Section 4 - main Page 4 --*/
+
+	.two-cols_6 {
+		display: block;
+	}
+
+	.two-cols_6 .col:nth-child(1) {
+		display: block;
+	    width: 100%;
+	    padding: 5px 0;
+	}
+
+	.two-cols_6 .col:nth-child(2) {
+		display: block;
+	    width: 100%;
+	    padding: 15px 0 5px 0;
+	}
+
+	/*-- /Section 4 - main Page 4 --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -554,6 +582,26 @@
 	}
 
 	/*-- /Section 1 - Calc Page --*/
+
+	/*-- Section 1 - main Page 4 --*/
+
+	.two-cols_5 .left {
+	    width: 42%;
+	}
+
+	.two-cols_5 .right {
+	    width: 58%;
+	}
+
+	/*-- /Section 1 - main Page 4 --*/
+
+	/*-- Section 5 - main Page 4 --*/
+
+	.thumb_14 {
+	    width: 33.33%;
+	}
+
+	/*-- /Section 5 - main Page 4 --*/
 
 	/*-- Footer --*/
 
@@ -1353,6 +1401,25 @@
 
 	/*-- /Section 5 - main Page 3 --*/
 
+	/*-- Section 1 - main Page 4 --*/
+
+	.promo-box_2 h1 {
+	    font-size: 61px;
+	    line-height: 90px;
+	}
+
+	.promo-box_2 .h1-box p {
+	    font-size: 43px;
+	    line-height: 50px;
+	}
+
+	.promo-box_2 .p-box p {
+	    font-size: 27px;
+	    line-height: 29px;
+	}
+
+	/*-- /Section 1 - main Page 4 --*/
+
 	/*-- Footer --*/
 
 	.footer .row-1 .left {
@@ -1375,6 +1442,46 @@
 	}
 
 	/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 750px) {
+
+	/*-- Section 1 - main Page 4 --*/
+
+	.two-cols_5 .left {
+	    width: 100%;
+	    float: none;
+	    padding: 0 0 20px 0;
+	}
+
+	.two-cols_5 .right {
+	    width: 100%;
+	    float: none;
+	}
+
+	/*-- /Section 1 - main Page 4 --*/
+
+}
+
+@media only screen and (max-width: 720px) {
+
+	/*-- Section 2 - main Page 4 --*/
+
+	.sect_4_4 {
+	    padding: 36px 0 40px 0;
+	}
+
+	.thumbnails-13_2 {
+		margin: 25px 0 7px 0;
+	}
+
+	.thumb-13_2 {
+	    width: 100%;
+	    margin: 10px 0;
+	}
+
+	/*-- /Section 2 - main Page 4 --*/
 
 }
 
@@ -1466,6 +1573,15 @@
 	}
 
 	/*-- /Section 3 - main Page 3 --*/
+
+	/*-- Section 1 - main Page 4 --*/
+
+	.promo-box_2 h1 {
+	    font-size: 47px;
+	    line-height: 55px;
+	}
+
+	/*-- /Section 1 - main Page 4 --*/
 
 	/*-- Popups --*/
 
@@ -1656,6 +1772,18 @@
 	}
 
 	/*-- /Popups --*/
+
+}
+
+@media only screen and (max-width: 590px) {
+
+	/*-- Section 5 - main Page 4 --*/
+
+	.thumb_14 {
+	    width: 50%;
+	}
+
+	/*-- /Section 5 - main Page 4 --*/
 
 }
 
@@ -2074,6 +2202,7 @@
 
 	.thumb-14 {
 	    min-width: 100%;
+	    max-width: 100%;
 	}
 
 	.thumb-14 .img-box {
@@ -2081,6 +2210,61 @@
 	}
 
 	/*-- /Section 3 - main Page 3 --*/
+
+	/*-- Section 1 - main Page 4 --*/
+
+	.promo-box_2 h1 {
+	    font-size: 36px;
+	    line-height: 46px;
+	}
+
+	.promo-box_2 .h1-box p {
+	    font-size: 34px;
+	    line-height: 40px;
+	}
+
+	.promo-box_2 .p-box p {
+	    font-size: 24px;
+	    line-height: 29px;
+	}
+
+	.promo-box_2 .promo-price .price {
+	    font-size: 57px;
+	    line-height: 70px;
+	}
+
+	.promo-box_2 .promo-price_wrapp {
+	    margin: 13px 0;
+	}
+
+	/*-- /Section 1 - main Page 4 --*/
+
+	/*-- Section 4 - main Page 4 --*/
+
+	.two-cols_5 h3 {
+	    font-size: 27px;
+	    line-height: 39px;
+	}
+
+	.mark_list li {
+	    width: 100%;
+	}
+
+	.two-cols_6 .green-pill {
+	    font-size: 15px !important;
+	}
+
+	/*-- /Section 4 - main Page 4 --*/
+
+	/*-- Section 5 - main Page 4 --*/
+
+	.thumb_14 .img-box {
+	    width: 110px;
+	    height: 110px;
+	    margin: 14px auto;
+	}
+
+	/*-- /Section 5 - main Page 4 --*/
 
 	/*-- Popups --*/
 
@@ -2200,6 +2384,23 @@
 
 	/*-- /Section 3 - Main Page 2 --*/
 
+	/*-- Section 2 - main Page 4 --*/
+
+	.thumb-13_2 p {
+	    font-size: 25px;
+	    line-height: 45px;
+	}
+
+	.thumb-13_2 p .ot {
+	    font-size: 34px;
+	}
+
+	.thumb-13_2 p .price {
+	    font-size: 37px;
+	}
+
+	/*-- /Section 2 - main Page 4 --*/
+
 	/*-- Footer --*/
 
 	.footer-nav .cell {
@@ -2230,6 +2431,30 @@
 	}
 
 	/*-- /Section 4 - Main Page 2 --*/
+
+	/*-- Section 1 - main Page 4 --*/
+
+	.promo-box_2 .promo-price .price {
+	    font-size: 50px;
+	    line-height: 60px;
+	}
+
+	.promo-box_2 .promo-price_wrapp p {
+	    font-size: 31px;
+	    line-height: 35px;
+	}
+
+	/*-- /Section 1 - main Page 4 --*/
+
+	/*-- Section 5 - main Page 4 --*/
+
+	.thumb_14 p {
+		text-transform: uppercase;
+	    font-size: 11px;
+	    font-weight: bold;
+	}
+
+	/*-- /Section 5 - main Page 4 --*/
 
 }
 

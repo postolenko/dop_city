@@ -4503,6 +4503,7 @@ h2.shadow {
 
 .sect-3_3 {
     padding: 46px 0 30px 0;
+    overflow: hidden;
 }
 
 .thumbnails-12 {
@@ -5082,10 +5083,6 @@ p.free {
 
 /*-- Section 5 - main Page 3 --*/
 
-.article_7 {
-
-}
-
 .article_7 .left {
     width: 32%;
     padding: 10px 0;
@@ -5158,6 +5155,419 @@ p.free {
 }
 
 /*-- /Section 11 - main Page 3 --*/
+
+/*-- Section 1 - main Page 4 --*/
+
+.promo-box_2 h1 {
+    font-size: 80px;
+    line-height: 124px;
+}
+
+.promo-box_2 {
+    background-image: url(img/bg_14.png);
+    padding-bottom: 22px;
+}
+
+.promo-img_wrapp_3 {
+    margin-top: 45px;
+}
+
+.promo-img_wrapp_3 .promo-img {
+    float: right;
+    margin-right: 2%;
+}
+
+.promo-box_2 .h1-box {
+    margin-bottom: 15px;
+}
+
+.promo-box_2 .h1-box p {
+    font-size: 58px;
+    line-height: 58px;
+}
+
+.promo-box_2 .p-box p {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+}
+
+.promo-box_2 .promo-price .price {
+    font-size: 80px;
+    line-height: 85px;
+}
+
+.promo-box_2 .promo-price_wrapp {
+    margin: 33px 0;
+}
+
+.promo-box_2  .promo-price_wrapp p {
+    font-size: 34px;
+    line-height: 38px;
+}
+
+.promo-box_2 .promo-price_wrapp p.promo-price {
+    padding-bottom: 7px;
+}
+
+/*-- /Section 1 - main Page 4 --*/
+
+/*-- Section 2 - main Page 4 --*/
+
+.sect_4_4 {
+    padding: 51px 0 42px 0;
+    background-image: url(img/bg_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sect_4_4 .row {
+    position: relative;
+    z-index: 2;
+}
+
+.thumbnails-13_2 {
+    margin: 45px -10px 20px  -10px;
+}
+
+.thumb-13_2 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    padding: 17px 2.7%;
+    width: calc(33.33% - 20px);
+    border: 5px solid #ffffff;
+    text-align: left;
+}
+
+.thumb-13_2.active {
+    background-color: #ffffff;
+}
+
+.thumb-13_2 h3 {
+    font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
+    font-size: 28px;
+    line-height: 37px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.thumb-13_2 p {
+    font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
+    font-size: 28px;
+    line-height: 52px;
+    color: rgb(255, 255, 255);
+}
+
+.thumb-13_2 p .ot {
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+}
+
+.thumb-13_2 p .price {
+    font-size: 42px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.thumb-13_2.active h3 {
+    color: #000000;
+}
+
+.thumb-13_2.active p {
+    color: #000000;
+}
+
+.thumb-13_2.active p .ot {
+    color: #000000;
+}
+
+.thumb-13_2.active p .price {
+    color: #f6450e;
+}
+
+/*-- /Section 2 - main Page 4 --*/
+
+/*-- Section 3 - main Page 4 --*/
+
+.sect_3_4 {
+    background-color: #f6f6f6;
+    padding: 44px 0 18px 0;
+}
+
+.thumbnails-4_2 .thumb-4 .img-box {
+    margin-bottom: 4px;
+}
+
+.thumbnails-4_2 .thumb-4 p {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.thumbnails-4_2 .thumb-4 .thumb_footer {
+    padding-top: 15px;
+}
+
+.thumbnails-4_2 .thumb-4:nth-child(2) .inner {
+    background-image: url(img/th_bg_02_2.jpg);
+}
+
+.thumbnails-4_2 .thumb-4:nth-child(3) .inner {
+    background-image: url(img/th_bg_03_2.jpg);
+}
+
+/*-- /Section 3 - main Page 4 --*/
+
+/*-- Section 4 - main Page 4 --*/
+
+.sect_4_4_2 {
+    padding: 48px 0 6px 0;
+}
+
+.two-cols_5 {
+    margin: 42px 0 60px 0;
+}
+
+.two-cols_5 .left {
+    width: 48%;
+    text-align: center;
+}
+
+.two-cols_5 .right {
+    width: 52%;
+}
+
+.two-cols_5 .img-box {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+    margin: 34px 0 0 0;
+    position: relative;
+}
+
+.two-cols_5 .img-box img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.credit {
+    width: 100%;
+    position: absolute;
+    bottom: 107px;
+    right: 0;
+    padding: 6px 10px;
+    background-image: url(img/credit_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.credit p {
+    font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.two-cols_5 h3 {
+    font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
+    font-size: 32px;
+    line-height:  42px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.door_description {
+    margin: 17px 0;
+}
+
+.door_description h4 {
+    font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
+    font-size: 18px;
+    line-height:  24px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.mark_list {
+    margin: 2px 0;
+    font-size: 0;
+    line-height: 0;
+}
+
+.mark_list li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding-left: 12px;
+    width: 50%;
+    font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #000000;    
+}
+
+.mark_list li:before {
+    display: block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 9px;
+    left: 0;
+    background-color: #e04b00;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.price-p {
+    font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #000000; 
+}
+
+.price-p .title {
+    font-weight: 500;
+}
+
+.old-price_2 {
+    display: inline-block;
+    vertical-align: baseline;
+    position: relative;
+    font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #000000; 
+}
+
+.old-price_2:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 56%;
+    left: 0;
+    background-color: #000000;
+}
+
+.red-price {
+    font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #e04b00;
+}
+
+.door-promo-form {
+    margin: 22px 0;
+    padding: 11px 4.5% 28px 4.5%;
+}
+
+.two-cols_6 {
+    display: table;
+    width: 100%;
+    text-align: left;
+}
+
+.two-cols_6 .col:nth-child(1) {
+    display: table-cell;
+    vertical-align: top;
+    width: 60%;
+    padding: 5px 5px 5px 0;
+}
+
+.two-cols_6 .col:nth-child(2) {
+    display: table-cell;
+    vertical-align: top;
+    width: 40%;
+    padding: 14px 0 5px 5px;
+}
+
+.two-cols_6 p {
+    font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: normal;
+    color: #afafae;
+}
+
+.two-cols_6 p a {
+    display: inline;
+    border-bottom: 1px solid #afafae;
+    font-family: "Avenir Next Cyr", "Arial", "Verdana", sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: normal;
+    color: #afafae;
+}
+
+/*-- /Section 4 - main Page 4 --*/
+
+
+
+
+
+
+
+/*-- Section 5 - main Page 4 --*/
+
+.sect_5_4 {
+    background-color: #f6f6f6;
+    padding: 47px 0 51px 0;
+}
+
+.thumbnails_14 {
+
+}
+
+.thumb_14 {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin: 14px 0;
+}
+
+.thumb_14 .img-box {
+    width: 153px;
+    height: 153px;
+    margin: 19px auto;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.thumb_14 p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Avenir Next Cyr";
+    font-weight: normal;
+    color: #000000;
+}
+
+/*-- /Section 5 - main Page 4 --*/
+
+
+
+
+
+
+
+
+
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
@@ -5778,15 +6188,6 @@ p.free {
 }
 
 /*-- /Popups --*/
-
-
-
-
-
-
-
-
-
 
 /*-- Animation --*/
 
