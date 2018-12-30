@@ -5330,19 +5330,21 @@ p.free {
 }
 
 .two-cols_5 .left {
-    width: 48%;
+    width: 46.5%;
+    padding-right: 1%;
     text-align: center;
 }
 
 .two-cols_5 .right {
-    width: 52%;
+    width: 53.5%;
+    padding-left: 1%;
 }
 
 .two-cols_5 .img-box {
     display: inline-block;
     vertical-align: top;
     max-width: 100%;
-    margin: 34px 0 0 0;
+    margin: 45px 0 0 0;
     position: relative;
 }
 
@@ -5362,6 +5364,11 @@ p.free {
     background-image: url(img/credit_bg.png);
     background-size: cover;
     background-position: center;
+}
+
+.credit_2 {
+    max-width: 140px;
+    bottom: 70px;
 }
 
 .credit p {

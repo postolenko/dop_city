@@ -1457,7 +1457,20 @@
 
 	.two-cols_5 .right {
 	    width: 100%;
+	    padding: 0;
 	    float: none;
+	}
+
+	.two-cols_5 .door-promo-form {
+		max-width: 100%;
+	}
+
+	.two-cols_5 .img-box img {
+	    max-height: 300px;
+	}
+
+	.credit {
+	    bottom: 75px;
 	}
 
 	/*-- /Section 1 - main Page 4 --*/
