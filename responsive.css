@@ -667,6 +667,15 @@
 	    max-width: 100%;
 	}
 
+	.popup_8 .callback-content {
+	    margin: 46px 0 12px 0;
+	    width: 100%;
+	}
+
+	.callback-popup .popup_img_7 {
+		display: none;
+	}
+
 	/*-- /Popups --*/
 
 }

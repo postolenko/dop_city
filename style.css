@@ -6195,6 +6195,31 @@ p.free {
     z-index: 3;
 }
 
+.popup_8 {
+    max-width: 790px;
+    width: 92%;
+    position: relative;
+    background-image: url(img/popup_8_bg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.callback-popup .popup_img_7 {
+    display: block;
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 43px;
+    left: -11%;
+    z-index: 3;
+}
+
+.popup_8 .callback-content {
+    margin: 34px 6% 12px 0;
+    width: 63%;
+}
+
 /*-- /Popups --*/
 
 /*-- Animation --*/
